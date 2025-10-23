@@ -234,6 +234,20 @@ module.exports = {
         }
       ],
       "contractType": "CouponNFT"
+    },
+    {
+      "address": "0xDD634CCBe04297D319Be2c9C73319eCf61ceE8D4",
+      "name": "2025 Bottie Awards",
+      "symbol": "Bottie2025",
+      "contractType": "CouponNFT",
+      "baseURI": "https://bafybeigz5q2jpsks6yiw5anbxpguiwlpnd27udip4hw5av6dpkk4aswgia.ipfs.w3s.link/",
+      "maxSupply": 48,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 48
+        }
+      ]
     }
   ],
   "contractTypeRegistry": {
