@@ -263,6 +263,42 @@ module.exports = {
           "endTokenId": 200
         }
       ]
+    },
+    {
+      "address": "0xB10dFca3df8a1999E9B42bbd6ff9F28A9086C1fb",
+      "name": "2025 Bottie Awards",
+      "symbol": "Bottie2025",
+      "contractType": "CouponNFT",
+      "baseURI": "https://bafybeiemptcddvbkdvw76dq7c6fenrfibxe6u7eys4qi2by3cfnbg3t47a.ipfs.w3s.link/",
+      "maxSupply": 48,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 48
+        }
+      ]
+    },
+    {
+      "address": "0x5dF95a95Bf54004Ab5776f5c1c27bfd4702d96eA",
+      "name": "Test Reward Token 2",
+      "symbol": "TRT",
+      "contractType": "RewardLockedNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeif5eganbpbl3frhymyn54csnzn5ickqpvn6tgszp6spaby5dqrbie/",
+      "maxSupply": 300,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 100
+        },
+        {
+          "startTokenId": 101,
+          "endTokenId": 200
+        },
+        {
+          "startTokenId": 201,
+          "endTokenId": 300
+        }
+      ]
     }
   ],
   "contractTypeRegistry": {
