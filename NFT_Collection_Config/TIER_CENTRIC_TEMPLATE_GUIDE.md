@@ -5,13 +5,20 @@ The new tier-centric template system simplifies RewardLockedNFT collection confi
 
 ## 📋 Template Structure
 
-### 1. **Collection Information**
+### 1. **IPFS Resources**
+- Images Directory CID
+- Metadata Directory CID (filled after upload)
+- Base Token URI (filled after upload)
+- Storage Space (organization name)
+- **Storage Space DID** ✨ NEW! - Storacha space identifier for auto-upload
+
+### 2. **Collection Information**
 Basic collection metadata (name, symbol, description, total supply)
 
-### 2. **Token Configuration** 
-Network token settings (LACE, GROW, etc.) with conversion rates
+### 3. **Token Configuration**
+Network token settings (LACE, ELMT-P, etc.) with conversion rates
 
-### 3. **Tier Configuration** ✨ NEW!
+### 4. **Tier Configuration** ✨
 Self-contained tier definitions with:
 - NFT count per tier
 - Lock duration (seconds)
@@ -19,8 +26,9 @@ Self-contained tier definitions with:
 - Tier-specific images (locked/unlocked states)
 - Custom attribute overrides
 
-### 4. **Global Attributes**
+### 5. **Global Attributes**
 Simple collection-wide attributes (e.g., "Collection Count")
+- Can be empty array `[]` if no global attributes needed
 
 ## 🚀 Quick Start Workflow
 
@@ -44,20 +52,31 @@ node scripts/generate-reward-metadata-tier-centric.js YourCollection.md
 
 ### Step 4: Upload to IPFS
 ```bash
-node scripts/upload-metadata-to-ipfs.js path/to/metadata/directory
+# NEW: Auto-extract DID from config file ✨
+node scripts/upload-to-ipfs.js metadata path/to/metadata/directory --config YourCollection.md
 # Returns: Base Token URI for contract
+
+# Alternative: Manual DID specification
+node scripts/upload-to-ipfs.js metadata path/to/metadata/directory --did z6Mk...
 ```
 
-### Step 5: Deploy Contract
+### Step 5: Update Config with IPFS Results
+Update your markdown config with:
+- Metadata Directory CID
+- Base Token URI
+
+### Step 6: Deploy via Main Deployment Script (Recommended)
+```bash
+# Add collection to {network}_custom-minter-config.js with address: ""
+# Then run main deployment script
+HARDHAT_NETWORK=element_main npx hardhat run scripts/02_deploy_and_setup_nft_minter.js --network element_main
+# Automatically: deploys contract, configures tiers, initializes discovery, saves address
+```
+
+### Alternative: Direct Deployment
 ```bash
 HARDHAT_NETWORK=nerd_test node scripts/deploy-reward-nft.js YourCollection.md
-# Returns: Contract address
-```
-
-### Step 6: Mint NFTs
-```bash
-HARDHAT_NETWORK=nerd_test node scripts/mint-manager-tier-centric.js CONTRACT_ADDRESS \
-  --config YourCollection.md --tier 1,2,3 --count 1 --to WALLET_ADDRESS --confirm
+# Returns: Contract address (manual setup required)
 ```
 
 ## 🎯 Key Advantages
@@ -67,8 +86,9 @@ HARDHAT_NETWORK=nerd_test node scripts/mint-manager-tier-centric.js CONTRACT_ADD
 - No complex attribute cross-references
 - Self-validating structure
 
-### ✅ **Fewer Attributes**
-- Only 3 attributes per NFT (2 overrides + 1 global)
+### ✅ **Flexible Attributes**
+- Minimal attributes (only what's defined in PDF spec)
+- Global attributes optional (can be empty array)
 - Reduced metadata complexity
 - Cleaner marketplace display
 
@@ -148,13 +168,28 @@ HARDHAT_NETWORK=nerd_test node scripts/mint-manager-tier-centric.js CONTRACT_ADD
 ## 📚 Files Reference
 
 ### Core Scripts:
-- `generate-reward-metadata-tier-centric.js` - Metadata generation
-- `mint-manager-tier-centric.js` - Enhanced minting system
-- `deploy-reward-nft.js` - Contract deployment
-- `upload-metadata-to-ipfs.js` - IPFS integration
+- `generate-reward-metadata-tier-centric.js` - Metadata generation from markdown configs
+- `upload-to-ipfs.js` - IPFS upload with auto-DID extraction ✨ NEW!
+- `02_deploy_and_setup_nft_minter.js` - Main deployment orchestrator (recommended)
+- `deploy-reward-nft.js` - Direct RewardLockedNFT deployment (alternative)
 
 ### Example Configs:
-- `LaceTest.md` - Working 3-tier example
-- `Reward_Test.md` - Legacy format (reference)
+- `LaceTest.md` - Multi-tier example (3 tiers, Nerd_Stage space)
+- `Element_Heirloom_Voucher.md` - Single-tier example (Element space) ✨ NEW!
+- `Reward_Test.md` - Legacy format (reference only)
 
-**Status**: 🎉 **PRODUCTION READY** - Tier-centric template system fully operational
+## 🆕 Recent Enhancements
+
+### Storage Space DID Auto-Detection (Oct 2025)
+- **What**: Upload script now auto-reads DID from markdown config
+- **Why**: Single source of truth, less manual copying
+- **Usage**: `--config YourCollection.md` parameter
+- **Benefit**: Cleaner workflow, fewer errors
+
+### Main Deployment Script Integration
+- **What**: Add collection to network config, script handles everything
+- **Why**: Consistent deployment across all collections
+- **Process**: Empty address → auto-deploy → auto-configure → save address
+- **Benefit**: Production-ready deployment in one command
+
+**Status**: 🎉 **PRODUCTION READY** - Tier-centric template system fully operational with auto-DID detection

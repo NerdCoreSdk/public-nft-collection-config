@@ -4,7 +4,8 @@
 - **Images Directory CID**: `bafybeibnwscm2t4ngf4q473qnufglo6azkjmdvyzmpljdifgay67tvupoy`
 - **Metadata Directory CID**: `bafybeihb7iirlyz4u75igt4ugaadw2qg7vcypahquk6m6prwolbchgum5y`
 - **Base Token URI**: `https://w3s.link/ipfs/bafybeihb7iirlyz4u75igt4ugaadw2qg7vcypahquk6m6prwolbchgum5y/`
-- **Storage Space**: Nerd_Stage (`did:key:z6MkrD9gUeV3KaiN5nmQ8TridGe8n7kthvTWien6MHiBrZi3`)
+- **Storage Space**: Nerd_Stage
+- **Storage Space DID**: `did:key:z6MkrD9gUeV3KaiN5nmQ8TridGe8n7kthvTWien6MHiBrZi3`
 
 ## Collection Information
 ```json
