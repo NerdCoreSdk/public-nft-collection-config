@@ -1,13 +1,13 @@
 module.exports = {
-  "network_environment": "BASE_SEPOLIA",
+  "network_environment": "BSC_TESTNET",
   "batchSize": 1000,
   "voucherBatchSize": 50,
   "coreAPI": "none",
-  "chainId": 84532,
+  "chainId": 97,
   "googleSheetsId": "1pQR5ngZJv3cmSWp6CAm2WWiYuSmJ-luUgUhQh9o8NMk",
-  "nftMintControllerAddress": "0x02e00F4804B3c7866d30bAf89b4E712a5D3eAee1",
-  "nftTokenDiscoveryAddress": "0xC349Af9C981Bf36eCba52775A18C650bf04B8AF0",
-  "nftMintVoucherAddress": "0xE68F673Ec96EE387400d0bF26391099Cbd59BF5E",
+  "nftMintControllerAddress": "",
+  "nftTokenDiscoveryAddress": "",
+  "nftMintVoucherAddress": "",
   "admins": [
     {
       "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70"
@@ -22,7 +22,7 @@ module.exports = {
       "baseURI": "https://bafybeiei5bcws25jktsux5acy75dodapkvcjrzmykx4fg24car2kcs5v3q.ipfs.w3s.link/",
       "maxSupply": 50,
       "royaltiesPercentage": 500,
-      "royaltiesReceiver": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F",
+      "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
       "tiers": [
         {
           "startTokenId": 1,
