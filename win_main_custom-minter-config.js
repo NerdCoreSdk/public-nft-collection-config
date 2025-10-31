@@ -248,6 +248,20 @@ module.exports = {
           "endTokenId": 48
         }
       ]
+    },
+    {
+      "address": "0x40709BA0BAA4Ac5412631eF73bF5426cdd924B7c",
+      "name": "Gather Pro NFT",
+      "symbol": "GatherPRO",
+      "contractType": "CouponNFT",
+      "baseURI": "https://bafybeihm2oy3q5wotthbl5wtr2pq54tvj6yapukz3rhss7aku2kzds526e.ipfs.w3s.link/",
+      "maxSupply": 200,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 200
+        }
+      ]
     }
   ],
   "contractTypeRegistry": {
