@@ -234,6 +234,20 @@ module.exports = {
           "endTokenId": 5000
         }
       ]
+    },
+    {
+      "address": "0xF68Dc864f637CAaF338695931493656b79827d20",
+      "name": "Grow Renaissance Manifesto NFT 15",
+      "symbol": "GRM15",
+      "baseURI": "https://bafybeiarc55nrjuhxkcthedtp5z6qsfndbxopwscqk4gyjypxfl5rbrndy.ipfs.w3s.link/",
+      "maxSupply": 5000,
+      "contractType": "CouponNFT",
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 5000
+        }
+      ]
     }
   ],
   "contractTypeRegistry": {
