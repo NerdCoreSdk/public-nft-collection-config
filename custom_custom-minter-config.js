@@ -5,9 +5,9 @@ module.exports = {
   "coreAPI": "http://localhost/",
   "chainId": 1337,
   "googleSheetsId": "1vE6MfTB1z4XHR9sGgc2lu3qR7iuE8KkBTwxJD68lb7Q",
-  "nftMintControllerAddress": "0xCaFa9d6c2E6B1Af0AA3c330C1ff11B215efE15Ed",
-  "nftTokenDiscoveryAddress": "0x7C6279d931DCc6d31405abAEBF619217C866D49D",
-  "nftMintVoucherAddress": "0xcDe3F828538fbB64468B29c0B401981876b9a23e",
+  "nftMintControllerAddress": "0xb6df61948E8a426206a13e93a88F03605c4D8785",
+  "nftTokenDiscoveryAddress": "0xA52E41c7963AfF784B06A52e14775833759068e7",
+  "nftMintVoucherAddress": "0xB502f5e4FA1C43a63F71A1f7f53610FcFfa1b6Be",
   "admins": [
     {
       "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
