@@ -22,8 +22,22 @@ module.exports = {
       "contractType": "CouponNFT",
       "baseURI": "https://bafybeigrxrojyqfaahcvy3gemc2c4a4bw6cuyzsxpvztr5gqq2k2ftep4m.ipfs.w3s.link/",
       "maxSupply": 50,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 50
+        }
+      ]
+    },
+    {
+      "address": "",
+      "name": "NerdyMarketplaceNFT",
+      "symbol": "NMNFT",
+      "contractType": "MarketplaceNFT",
+      "baseURI": "https://bafybeicbulimsmxxvjac3hcujpjytlqrfsebtm5ui5jo3kduqdhikqxa7a.ipfs.w3s.link/",
+      "maxSupply": 50,
       "royaltiesPercentage": 500,
-      "royaltiesReceiver": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F",
+      "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
       "tiers": [
         {
           "startTokenId": 1,
