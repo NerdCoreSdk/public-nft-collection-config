@@ -15,7 +15,7 @@ module.exports = {
   ],
   "collections": [
     {
-      "address": "",
+      "address": "0x2d2F3BeF9eeE6E05E4Cc9F9b78C06Ab70fE7e371",
       "name": "NerdyMarketplaceNFT",
       "symbol": "NMNFT",
       "contractType": "MarketplaceNFT",
