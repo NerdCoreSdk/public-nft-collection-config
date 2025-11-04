@@ -5,22 +5,21 @@ module.exports = {
   "coreAPI": "none",
   "chainId": 8453,
   "googleSheetsId": "1lXn1dVmBrCtWiCpMAF3XdaL8Xpf9bCK9R5I2qKBDTuw",
-  "nftMintControllerAddress": "",
-  "nftTokenDiscoveryAddress": "",
-  "nftMintVoucherAddress": "",
+  "nftMintControllerAddress": "0xAA346A5fa0860132625Ed2E6F88D0C9A964ef7Ec",
+  "nftTokenDiscoveryAddress": "0x23030A74ebdc574A73738E842f2002135Df9D1bE",
+  "nftMintVoucherAddress": "0x0D99C3966384A608D560c017c9D16E74fEeDf248",
   "admins": [
     {
-      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
       "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
     }
   ],
   "collections": [
     {
       "address": "",
-      "name": "MyFirstMarketplaceNFT",
-      "symbol": "MFMT",
+      "name": "NerdyMarketplaceNFT",
+      "symbol": "NMNFT",
       "contractType": "MarketplaceNFT",
-      "baseURI": "https://bafybeiei5bcws25jktsux5acy75dodapkvcjrzmykx4fg24car2kcs5v3q.ipfs.w3s.link/",
+      "baseURI": "https://bafybeicbulimsmxxvjac3hcujpjytlqrfsebtm5ui5jo3kduqdhikqxa7a.ipfs.w3s.link/",
       "maxSupply": 50,
       "royaltiesPercentage": 500,
       "royaltiesReceiver": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F",

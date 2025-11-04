@@ -17,10 +17,10 @@ module.exports = {
   "collections": [
     {
       "address": "",
-      "name": "MyFirstMarketplaceNFT",
-      "symbol": "MFMT",
+      "name": "NerdyMarketplaceNFT",
+      "symbol": "NMNFT",
       "contractType": "MarketplaceNFT",
-      "baseURI": "https://bafybeiei5bcws25jktsux5acy75dodapkvcjrzmykx4fg24car2kcs5v3q.ipfs.w3s.link/",
+      "baseURI": "https://bafybeicbulimsmxxvjac3hcujpjytlqrfsebtm5ui5jo3kduqdhikqxa7a.ipfs.w3s.link/",
       "maxSupply": 50,
       "royaltiesPercentage": 500,
       "royaltiesReceiver": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F",
