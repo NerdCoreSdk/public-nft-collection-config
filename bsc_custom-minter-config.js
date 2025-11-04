@@ -1,10 +1,10 @@
 module.exports = {
-  "network_environment": "BASE_MAINNET",
+  "network_environment": "BNB_MAINNET",
   "batchSize": 1000,
   "voucherBatchSize": 50,
   "coreAPI": "none",
-  "chainId": 8453,
-  "googleSheetsId": "1lXn1dVmBrCtWiCpMAF3XdaL8Xpf9bCK9R5I2qKBDTuw",
+  "chainId": 56,
+  "googleSheetsId": "1ysfxmso6jcY_TOvyZutMxoKYsx95F-ZE59-hJ_HNzJs",
   "nftMintControllerAddress": "",
   "nftTokenDiscoveryAddress": "",
   "nftMintVoucherAddress": "",
