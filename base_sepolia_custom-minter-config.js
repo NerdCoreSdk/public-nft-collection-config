@@ -10,7 +10,8 @@ module.exports = {
   "nftMintVoucherAddress": "0xE68F673Ec96EE387400d0bF26391099Cbd59BF5E",
   "admins": [
     {
-      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70"
+      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
     }
   ],
   "collections": [

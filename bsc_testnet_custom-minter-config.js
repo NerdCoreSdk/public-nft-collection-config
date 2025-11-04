@@ -4,18 +4,19 @@ module.exports = {
   "voucherBatchSize": 50,
   "coreAPI": "none",
   "chainId": 97,
-  "googleSheetsId": "1pQR5ngZJv3cmSWp6CAm2WWiYuSmJ-luUgUhQh9o8NMk",
-  "nftMintControllerAddress": "",
-  "nftTokenDiscoveryAddress": "",
-  "nftMintVoucherAddress": "",
+  "googleSheetsId": "1B-vXEM20Ba5HXdfE3PfoIGLK4mkopLiBCw2iCRrYikA",
+  "nftMintControllerAddress": "0xAA346A5fa0860132625Ed2E6F88D0C9A964ef7Ec",
+  "nftTokenDiscoveryAddress": "0x23030A74ebdc574A73738E842f2002135Df9D1bE",
+  "nftMintVoucherAddress": "0x0D99C3966384A608D560c017c9D16E74fEeDf248",
   "admins": [
     {
-      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70"
+      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
     }
   ],
   "collections": [
     {
-      "address": "0x7c722e02c31aCe8E93A43Ad0142B85daAF4a94D9",
+      "address": "0xBaf9AF671A85636DaED45dE1B326a39F05a3834c",
       "name": "MyFirstMarketplaceNFT",
       "symbol": "MFMT",
       "contractType": "MarketplaceNFT",
