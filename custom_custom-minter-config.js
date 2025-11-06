@@ -5,9 +5,9 @@ module.exports = {
   "coreAPI": "http://localhost/",
   "chainId": 1337,
   "googleSheetsId": "1vE6MfTB1z4XHR9sGgc2lu3qR7iuE8KkBTwxJD68lb7Q",
-  "nftMintControllerAddress": "0xb6df61948E8a426206a13e93a88F03605c4D8785",
-  "nftTokenDiscoveryAddress": "0xA52E41c7963AfF784B06A52e14775833759068e7",
-  "nftMintVoucherAddress": "0xB502f5e4FA1C43a63F71A1f7f53610FcFfa1b6Be",
+  "nftMintControllerAddress": "0x284aAF88cCbCe74c07dba49439D2B88eBe48700F",
+  "nftTokenDiscoveryAddress": "0xE3b190950feba08be1892F6dFD9332C2280eD336",
+  "nftMintVoucherAddress": "0x82A6474736dd09f9606bA2D62ed64eBB4660BeFc",
   "admins": [
     {
       "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
@@ -234,6 +234,85 @@ module.exports = {
         {
           "startTokenId": 201,
           "endTokenId": 300
+        }
+      ]
+    },
+    {
+      "address": "0x501ef0Ac82B75F2F4376B483508a8fD1C697362c",
+      "name": "Test Activatable Only",
+      "symbol": "ACTV",
+      "contractType": "CouponNFT",
+      "baseURI": "https://test-metadata.example.com/activatable/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 100
+        }
+      ]
+    },
+    {
+      "address": "0xcAF90cf4868c32D67Eb0BB40b88911d669dBE11A",
+      "name": "Test Expirable Only",
+      "symbol": "EXPR",
+      "contractType": "CouponNFT",
+      "baseURI": "https://test-metadata.example.com/expirable/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 50,
+          "timeLimitDuration": 604800
+        },
+        {
+          "startTokenId": 51,
+          "endTokenId": 100,
+          "timeLimitDuration": 2592000
+        }
+      ]
+    },
+    {
+      "address": "0x8A42ead105474e69c050E3F499dBA1a94EC3AAe4",
+      "name": "Test Both Utilities",
+      "symbol": "BOTH",
+      "contractType": "CouponNFT",
+      "baseURI": "https://test-metadata.example.com/both/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 100,
+          "timeLimitDuration": 1209600
+        }
+      ]
+    },
+    {
+      "address": "0xaDd2C827E7249a93f40d84E4C82751162F98c804",
+      "name": "Test Standard NFT",
+      "symbol": "STND",
+      "contractType": "CouponNFT",
+      "baseURI": "https://test-metadata.example.com/standard/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 100
         }
       ]
     }
