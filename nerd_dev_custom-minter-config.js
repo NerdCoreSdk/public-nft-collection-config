@@ -299,6 +299,85 @@ module.exports = {
           "endTokenId": 300
         }
       ]
+    },
+    {
+      "address": "",
+      "name": "Test Activatable Only",
+      "symbol": "ACTV",
+      "contractType": "CouponNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeieqqkp7kert354t2x6c2cwebo4yav7fttq3vbjwtzxp5r22bjghlu/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 100
+        }
+      ]
+    },
+    {
+      "address": "",
+      "name": "Test Expirable Only",
+      "symbol": "EXPR",
+      "contractType": "CouponNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeieobgptogkklnohv3apvxtcuszrdm2hp2hfi2vn4gpv7nnmezecoq/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 50,
+          "timeLimitDuration": 604800
+        },
+        {
+          "startTokenId": 51,
+          "endTokenId": 100,
+          "timeLimitDuration": 2592000
+        }
+      ]
+    },
+    {
+      "address": "",
+      "name": "Test Both Utilities",
+      "symbol": "BOTH",
+      "contractType": "CouponNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeigbuc54lz5pdhzsogchcqkmphtieol767b26ehqdelclbrhfk2wpq/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 100,
+          "timeLimitDuration": 1209600
+        }
+      ]
+    },
+    {
+      "address": "",
+      "name": "Test Standard NFT",
+      "symbol": "STND",
+      "contractType": "CouponNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeihpdxidwb52twpn3o7hqdzddqbms5kmoloewancjwz6y3tajjhyfi/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 100
+        }
+      ]
     }
   ],
   "contractTypeRegistry": {
