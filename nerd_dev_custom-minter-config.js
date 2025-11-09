@@ -2,9 +2,9 @@ module.exports = {
   "network_environment": "NERD_DEV",
   "batchSize": 1000,
   "googleSheetsId": "1UVNRtOHCyeg84XzNgWw90544Hh2CXucg-kAmcG2vijQ",
-  "nftMintControllerAddress": "0x39b91a6ef82560C10cA27fd7BF5116146c0e2Ca8",
-  "nftTokenDiscoveryAddress": "0xD9284011ccC5FB8D7C02d4051A14152A35fa07b8",
-  "nftMintVoucherAddress": "0xE78cA215985a939B9D2880c1678eba869a3ba44B",
+  "nftMintControllerAddress": "0xDd7812b694A5066fb7dC7b40Ee2759E4667934f0",
+  "nftTokenDiscoveryAddress": "0xCB11c8a4C4F2772E851dB29297fDB9040303cA23",
+  "nftMintVoucherAddress": "0x04A2421B201768dE34e6b056046107fa956F2433",
   "coreAPI": "https://api.dev.nerdunited.net/",
   "chainId": 416461,
   "admins": [
@@ -301,7 +301,7 @@ module.exports = {
       ]
     },
     {
-      "address": "",
+      "address": "0x5cd7c2bcae5856754f5E260D2BF143AdBDFf4C8D",
       "name": "Test Activatable Only",
       "symbol": "ACTV",
       "contractType": "CouponNFT",
@@ -319,7 +319,7 @@ module.exports = {
       ]
     },
     {
-      "address": "",
+      "address": "0xA12C047F1f7E468896826Be96147116d7E11bba6",
       "name": "Test Expirable Only",
       "symbol": "EXPR",
       "contractType": "CouponNFT",
@@ -343,7 +343,7 @@ module.exports = {
       ]
     },
     {
-      "address": "",
+      "address": "0x9FcBB88e4aECDE7AF24aafCaa18E6CcbE68b1FEc",
       "name": "Test Both Utilities",
       "symbol": "BOTH",
       "contractType": "CouponNFT",
@@ -362,7 +362,7 @@ module.exports = {
       ]
     },
     {
-      "address": "",
+      "address": "0xf24FA5c1C0b1dD086D6B5B939591fF7e68196b52",
       "name": "Test Standard NFT",
       "symbol": "STND",
       "contractType": "CouponNFT",
