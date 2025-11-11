@@ -378,6 +378,35 @@ module.exports = {
           "endTokenId": 100
         }
       ]
+    },
+    {
+      "address": "0xf0EE227f95F35459fA13334f8eE376c1a68391B3",
+      "name": "Test Both Utilities",
+      "symbol": "BOTH",
+      "contractType": "CouponNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeigbuc54lz5pdhzsogchcqkmphtieol767b26ehqdelclbrhfk2wpq/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 40,
+          "timeLimitDuration": 60
+        },
+        {
+          "startTokenId": 41,
+          "endTokenId": 80,
+          "timeLimitDuration": 300
+        },
+        {
+          "startTokenId": 81,
+          "endTokenId": 100,
+          "timeLimitDuration": 600
+        }
+      ]
     }
   ],
   "contractTypeRegistry": {
