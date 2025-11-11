@@ -5,9 +5,9 @@ module.exports = {
   "coreAPI": "http://localhost/",
   "chainId": 1337,
   "googleSheetsId": "1vE6MfTB1z4XHR9sGgc2lu3qR7iuE8KkBTwxJD68lb7Q",
-  "nftMintControllerAddress": "0x284aAF88cCbCe74c07dba49439D2B88eBe48700F",
-  "nftTokenDiscoveryAddress": "0xE3b190950feba08be1892F6dFD9332C2280eD336",
-  "nftMintVoucherAddress": "0x82A6474736dd09f9606bA2D62ed64eBB4660BeFc",
+  "nftMintControllerAddress": "0xD6A410117B9A4844e5f43abb90ECcdc6BfDb51c4",
+  "nftTokenDiscoveryAddress": "0x97ffec7E9FCb683941e8d03128d83F609684cE36",
+  "nftMintVoucherAddress": "0x82EADA79287fb793e6ac11eCa7E22D8da5ed3a06",
   "admins": [
     {
       "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
@@ -238,11 +238,11 @@ module.exports = {
       ]
     },
     {
-      "address": "0x501ef0Ac82B75F2F4376B483508a8fD1C697362c",
-      "name": "Test Activatable Only",
-      "symbol": "ACTV",
+      "address": "0x087cE7923808a5A545B845Df3587A76aECc44cf0",
+      "name": "Test Activatable Only 2",
+      "symbol": "ACTV2",
       "contractType": "CouponNFT",
-      "baseURI": "https://test-metadata.example.com/activatable/",
+      "baseURI": "https://w3s.link/ipfs/bafybeieqqkp7kert354t2x6c2cwebo4yav7fttq3vbjwtzxp5r22bjghlu/",
       "maxSupply": 100,
       "utilities": {
         "isActivatable": true,
@@ -256,11 +256,11 @@ module.exports = {
       ]
     },
     {
-      "address": "0xcAF90cf4868c32D67Eb0BB40b88911d669dBE11A",
-      "name": "Test Expirable Only",
-      "symbol": "EXPR",
+      "address": "0x44F95Da71C4a33020FDBE062E3b9B1a4C23f99e6",
+      "name": "Test Expirable Only 2",
+      "symbol": "EXPR2",
       "contractType": "CouponNFT",
-      "baseURI": "https://test-metadata.example.com/expirable/",
+      "baseURI": "https://w3s.link/ipfs/bafybeieobgptogkklnohv3apvxtcuszrdm2hp2hfi2vn4gpv7nnmezecoq/",
       "maxSupply": 100,
       "utilities": {
         "isActivatable": false,
@@ -280,30 +280,11 @@ module.exports = {
       ]
     },
     {
-      "address": "0x8A42ead105474e69c050E3F499dBA1a94EC3AAe4",
-      "name": "Test Both Utilities",
-      "symbol": "BOTH",
+      "address": "0xDF8CdBde2C63f4BB7119295a895cA2F5845F159E",
+      "name": "Test Standard NFT 2",
+      "symbol": "STND2",
       "contractType": "CouponNFT",
-      "baseURI": "https://test-metadata.example.com/both/",
-      "maxSupply": 100,
-      "utilities": {
-        "isActivatable": true,
-        "isExpirable": true
-      },
-      "tiers": [
-        {
-          "startTokenId": 1,
-          "endTokenId": 100,
-          "timeLimitDuration": 1209600
-        }
-      ]
-    },
-    {
-      "address": "0xaDd2C827E7249a93f40d84E4C82751162F98c804",
-      "name": "Test Standard NFT",
-      "symbol": "STND",
-      "contractType": "CouponNFT",
-      "baseURI": "https://test-metadata.example.com/standard/",
+      "baseURI": "https://w3s.link/ipfs/bafybeihpdxidwb52twpn3o7hqdzddqbms5kmoloewancjwz6y3tajjhyfi/",
       "maxSupply": 100,
       "utilities": {
         "isActivatable": false,
@@ -313,6 +294,35 @@ module.exports = {
         {
           "startTokenId": 1,
           "endTokenId": 100
+        }
+      ]
+    },
+    {
+      "address": "0x17B8a67Add1828C31d7BA0E89dd3B72695A31087",
+      "name": "Test Both Utilities 2",
+      "symbol": "BOTH2",
+      "contractType": "CouponNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeigbuc54lz5pdhzsogchcqkmphtieol767b26ehqdelclbrhfk2wpq/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 40,
+          "timeLimitDuration": 300
+        },
+        {
+          "startTokenId": 41,
+          "endTokenId": 80,
+          "timeLimitDuration": 600
+        },
+        {
+          "startTokenId": 81,
+          "endTokenId": 100,
+          "timeLimitDuration": 1200
         }
       ]
     }

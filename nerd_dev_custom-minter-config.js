@@ -301,115 +301,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x5cd7c2bcae5856754f5E260D2BF143AdBDFf4C8D",
-      "name": "Test Activatable Only",
-      "symbol": "ACTV",
-      "contractType": "CouponNFT",
-      "baseURI": "https://w3s.link/ipfs/bafybeieqqkp7kert354t2x6c2cwebo4yav7fttq3vbjwtzxp5r22bjghlu/",
-      "maxSupply": 100,
-      "utilities": {
-        "isActivatable": true,
-        "isExpirable": false
-      },
-      "tiers": [
-        {
-          "startTokenId": 1,
-          "endTokenId": 100
-        }
-      ]
-    },
-    {
-      "address": "0xA12C047F1f7E468896826Be96147116d7E11bba6",
-      "name": "Test Expirable Only",
-      "symbol": "EXPR",
-      "contractType": "CouponNFT",
-      "baseURI": "https://w3s.link/ipfs/bafybeieobgptogkklnohv3apvxtcuszrdm2hp2hfi2vn4gpv7nnmezecoq/",
-      "maxSupply": 100,
-      "utilities": {
-        "isActivatable": false,
-        "isExpirable": true
-      },
-      "tiers": [
-        {
-          "startTokenId": 1,
-          "endTokenId": 50,
-          "timeLimitDuration": 604800
-        },
-        {
-          "startTokenId": 51,
-          "endTokenId": 100,
-          "timeLimitDuration": 2592000
-        }
-      ]
-    },
-    {
-      "address": "0x9FcBB88e4aECDE7AF24aafCaa18E6CcbE68b1FEc",
-      "name": "Test Both Utilities",
-      "symbol": "BOTH",
-      "contractType": "CouponNFT",
-      "baseURI": "https://w3s.link/ipfs/bafybeigbuc54lz5pdhzsogchcqkmphtieol767b26ehqdelclbrhfk2wpq/",
-      "maxSupply": 100,
-      "utilities": {
-        "isActivatable": true,
-        "isExpirable": true
-      },
-      "tiers": [
-        {
-          "startTokenId": 1,
-          "endTokenId": 100,
-          "timeLimitDuration": 1209600
-        }
-      ]
-    },
-    {
-      "address": "0xf24FA5c1C0b1dD086D6B5B939591fF7e68196b52",
-      "name": "Test Standard NFT",
-      "symbol": "STND",
-      "contractType": "CouponNFT",
-      "baseURI": "https://w3s.link/ipfs/bafybeihpdxidwb52twpn3o7hqdzddqbms5kmoloewancjwz6y3tajjhyfi/",
-      "maxSupply": 100,
-      "utilities": {
-        "isActivatable": false,
-        "isExpirable": false
-      },
-      "tiers": [
-        {
-          "startTokenId": 1,
-          "endTokenId": 100
-        }
-      ]
-    },
-    {
-      "address": "0xf0EE227f95F35459fA13334f8eE376c1a68391B3",
-      "name": "Test Both Utilities",
-      "symbol": "BOTH",
-      "contractType": "CouponNFT",
-      "baseURI": "https://w3s.link/ipfs/bafybeigbuc54lz5pdhzsogchcqkmphtieol767b26ehqdelclbrhfk2wpq/",
-      "maxSupply": 100,
-      "utilities": {
-        "isActivatable": true,
-        "isExpirable": true
-      },
-      "tiers": [
-        {
-          "startTokenId": 1,
-          "endTokenId": 40,
-          "timeLimitDuration": 60
-        },
-        {
-          "startTokenId": 41,
-          "endTokenId": 80,
-          "timeLimitDuration": 300
-        },
-        {
-          "startTokenId": 81,
-          "endTokenId": 100,
-          "timeLimitDuration": 600
-        }
-      ]
-    },
-    {
-      "address": "0xc61Ff161B1183C2Ff18444596166797d1E0A9338",
+      "address": "0xe31E9531d0F130961C1258839b98BBbF9aA27Fab",
       "name": "Test Activatable Only 2",
       "symbol": "ACTV2",
       "contractType": "CouponNFT",
@@ -427,7 +319,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x1AD1c459209Ac6Ff3efE36b3cd6DB9a2F2769f1E",
+      "address": "0xC3dcA10B9D276f96Bb4354C15558CBa98dCd118F",
       "name": "Test Expirable Only 2",
       "symbol": "EXPR2",
       "contractType": "CouponNFT",
@@ -451,7 +343,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x3C77cfFF5cE2742d7738615e311FD530Bc1611fc",
+      "address": "0xBF7A79323BEb376565C8Db10b5B4966ba1Dc02EB",
       "name": "Test Standard NFT 2",
       "symbol": "STND2",
       "contractType": "CouponNFT",
@@ -469,7 +361,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x56bb8f068702806B54534F898Fd4Acfa0BB0d9FC",
+      "address": "0xA865DB560998c730cBFB9ca16b753670201D3D67",
       "name": "Test Both Utilities 2",
       "symbol": "BOTH2",
       "contractType": "CouponNFT",
