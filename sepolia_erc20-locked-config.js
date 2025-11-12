@@ -1,71 +1,46 @@
-/**
- * ERC20LockedNFT Multi-Collection Configuration - Sepolia Testnet
- *
- * Testnet configuration with 3 collections for testing purposes.
- * Smaller supply sizes and reduced reward pools for testing.
- */
-
 module.exports = {
-    // Brand Identity
-    brandName: "Test Brand",
-    brandOwner: "0x0000000000000000000000000000000000000000",  // Your testnet wallet
-
-    // Test ERC20 Token (deploy ERC20Mock first)
-    rewardTokenAddress: "0x0000000000000000000000000000000000000000",  // ⚠️ Deploy test token first
-    rewardTokenSymbol: "TEST",
-    rewardTokenDecimals: 18,
-
-    // NFT Collections (3 test collections)
-    collections: [
-        // Test Collection 1: Basic
+  "brands": [
+    {
+      "brandName": "Nerd Dev",
+      "brandOwner": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+      "rewardTokenAddress": "0x33704C90cAf0B01eD7b5d1858BC0c07ce28F0734",
+      "rewardTokenSymbol": "XLACE",
+      "rewardTokenDecimals": 8,
+      "collections": [
         {
-            name: "Test HODL Basic",
-            symbol: "tHODL-1",
-            address: "",
-            baseURI: "https://testnet-metadata.example.com/basic/",
-            maxSupply: 100,
-
-            royaltiesPercentage: 500,  // 5%
-            royaltiesReceiver: "0x0000000000000000000000000000000000000000",  // Your testnet wallet
-
-            rewardTokenAddress: "0x0000000000000000000000000000000000000000",  // Same as brand token
-            rewardTokenDecimals: 18,
-
-            initialRewardPoolSize: "10000"  // 10k test tokens
-        },
-
-        // Test Collection 2: Medium
-        {
-            name: "Test HODL Medium",
-            symbol: "tHODL-2",
-            address: "",
-            baseURI: "https://testnet-metadata.example.com/medium/",
-            maxSupply: 50,
-
-            royaltiesPercentage: 750,  // 7.5%
-            royaltiesReceiver: "0x0000000000000000000000000000000000000000",  // Your testnet wallet
-
-            rewardTokenAddress: "0x0000000000000000000000000000000000000000",  // Same as brand token
-            rewardTokenDecimals: 18,
-
-            initialRewardPoolSize: "5000"  // 5k test tokens
-        },
-
-        // Test Collection 3: Premium
-        {
-            name: "Test HODL Premium",
-            symbol: "tHODL-3",
-            address: "",
-            baseURI: "https://testnet-metadata.example.com/premium/",
-            maxSupply: 25,
-
-            royaltiesPercentage: 1000,  // 10%
-            royaltiesReceiver: "0x0000000000000000000000000000000000000000",  // Your testnet wallet
-
-            rewardTokenAddress: "0x0000000000000000000000000000000000000000",  // Same as brand token
-            rewardTokenDecimals: 18,
-
-            initialRewardPoolSize: "2500"  // 2.5k test tokens
+          "name": "LACEX Locked Test Collection",
+          "symbol": "LACEXSEP",
+          "address": "0xE53d4B758c8946a805eFda1539Bf68006239B84B",
+          "baseURI": "https://bafybeigjrida3jsfen7d4ujcodegvxbl2f6c4cy4e2twthmp4yxfi573om.ipfs.w3s.link/",
+          "maxSupply": 100,
+          "royaltiesPercentage": 500,
+          "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+          "rewardTokenAddress": "0x33704C90cAf0B01eD7b5d1858BC0c07ce28F0734",
+          "rewardTokenDecimals": 8,
+          "initialRewardPoolSize": "100"
         }
-    ]
+      ]
+    },
+    {
+      "brandName": "Test Brand",
+      "brandOwner": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+      "rewardTokenAddress": "0x378CE74b4b4472055429664733892F958c9FC9B7",
+      "rewardTokenSymbol": "TEST",
+      "rewardTokenDecimals": 18,
+      "collections": [
+        {
+          "name": "Test HODL Basic",
+          "symbol": "tHODL-1",
+          "address": "0x13D1792880dd9CAa71498576054e18441dCaEeb0",
+          "baseURI": "https://testnet-metadata.example.com/basic/",
+          "maxSupply": 100,
+          "royaltiesPercentage": 500,
+          "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+          "rewardTokenAddress": "0x378CE74b4b4472055429664733892F958c9FC9B7",
+          "rewardTokenDecimals": 18,
+          "initialRewardPoolSize": "10000"
+        }
+      ]
+    }
+  ]
 };
