@@ -10,7 +10,7 @@ module.exports = {
         {
           "name": "Test HODL Reward NFT 1",
           "symbol": "tHODL-1",
-          "address": "0x53D54d8690382bAbE0A3e8411D8B6f3F8Ca6b49A",
+          "address": "0x51b60CC843aE7AbBC2F387c7C281d42D0d9ed648",
           "baseURI": "https://test-metadata.example.com/hodl1/",
           "maxSupply": 50,
           "royaltiesPercentage": 500,
@@ -22,7 +22,7 @@ module.exports = {
         {
           "name": "Test HODL Reward NFT 2",
           "symbol": "tHODL-2",
-          "address": "0x0e0CAf74b7FA2027A8C7C1527BF71e7cfFDcd921",
+          "address": "0x512B4BD1324b0b9180Cc69DE7C11350CdF39c3b2",
           "baseURI": "https://test-metadata.example.com/hodl2/",
           "maxSupply": 30,
           "royaltiesPercentage": 750,
@@ -34,7 +34,7 @@ module.exports = {
         {
           "name": "Test HODL Reward NFT 3",
           "symbol": "tHODL-3",
-          "address": "0xf27EA2dAbcF26497eeD866Ed724223B3a65b6cFe",
+          "address": "0x283339718a59b5B0A6a19D9a76F885f49c2Cc873",
           "baseURI": "https://test-metadata.example.com/hodl3/",
           "maxSupply": 300,
           "royaltiesPercentage": 0,
@@ -55,7 +55,7 @@ module.exports = {
         {
           "name": "Brand2 Premium NFT Collection",
           "symbol": "B2-PREM",
-          "address": "0x0F426CfD6d4A8D95f3E4dd7f20509ee6f65aC0e6",
+          "address": "0x1EBef3c190821b32C49052B8f1E055592877Bb86",
           "baseURI": "https://brand2-metadata.example.com/premium/",
           "maxSupply": 100,
           "royaltiesPercentage": 750,
