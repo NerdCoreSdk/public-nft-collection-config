@@ -10,7 +10,7 @@ module.exports = {
         {
           "name": "LACEX Locked Test Collection",
           "symbol": "LACEXSEP",
-          "address": "0x5ddCcBF0b5bfc1F5Ce2a1a9Be2DBaa3823a543B3",
+          "address": "0x7B050DB12f6a748584D53fa3f6306B9461E74388",
           "baseURI": "https://bafybeigjrida3jsfen7d4ujcodegvxbl2f6c4cy4e2twthmp4yxfi573om.ipfs.w3s.link/",
           "maxSupply": 100,
           "royaltiesPercentage": 500,
