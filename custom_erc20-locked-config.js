@@ -1,4 +1,5 @@
 module.exports = {
+  "googleSheetsId": "12lXIHk-rhD5Lo3iEMAsumKDDLG3VTEmgeqilSXVQNPw",
   "brands": [
     {
       "brandName": "Test Brand",
@@ -52,6 +53,38 @@ module.exports = {
           "address": "0x52b3c2AbE4C56316F9db497E100e2cd3B24999ee",
           "baseURI": "https://test-metadata.example.com/hodl1/",
           "maxSupply": 50,
+          "royaltiesPercentage": 500,
+          "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+          "rewardTokenAddress": "0xAAF62976ee828b91f06615f2007f995d2400699c",
+          "rewardTokenDecimals": 18,
+          "initialRewardPoolSize": "0"
+        },
+        {
+          "name": "Test HODL Reward Unlimited",
+          "tiers": [
+            {
+              "name": "Tier 1",
+              "lockAmountUSD": 1000,
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 300
+            },
+            {
+              "name": "Tier 2",
+              "lockAmountUSD": 3000,
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 600
+            },
+            {
+              "name": "Tier 3",
+              "lockAmountUSD": 5000,
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 86400
+            }
+          ],
+          "symbol": "tHODL-UNL",
+          "address": "0x91F1b6e8add6f9e6639015589EE6BCE4b6FE29A1",
+          "baseURI": "https://test-metadata.example.com/hodl1/",
+          "maxSupply": 0,
           "royaltiesPercentage": 500,
           "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
           "rewardTokenAddress": "0xAAF62976ee828b91f06615f2007f995d2400699c",
