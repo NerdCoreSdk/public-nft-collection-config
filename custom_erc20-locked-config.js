@@ -50,7 +50,7 @@ module.exports = {
             }
           ],
           "symbol": "tHODL-1",
-          "address": "0x52b3c2AbE4C56316F9db497E100e2cd3B24999ee",
+          "address": "0x753E259Db0C5341a6aa143fc30886645E32e032C",
           "baseURI": "https://test-metadata.example.com/hodl1/",
           "maxSupply": 50,
           "royaltiesPercentage": 500,
@@ -82,7 +82,7 @@ module.exports = {
             }
           ],
           "symbol": "tHODL-UNL",
-          "address": "0x91F1b6e8add6f9e6639015589EE6BCE4b6FE29A1",
+          "address": "0x9726F3a5Afc81bA49D0EA359a553c03dAbdF4662",
           "baseURI": "https://test-metadata.example.com/hodl1/",
           "maxSupply": 0,
           "royaltiesPercentage": 500,
