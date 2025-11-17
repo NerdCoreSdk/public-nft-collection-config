@@ -18,7 +18,7 @@ module.exports = {
         {
           "name": "LACEX Locked Test Collection (Unlimited)",
           "symbol": "LACEXSEP",
-          "address": "0x825B4d66e3eCE4A9F75ea11193A6C9B1b338983f",
+          "address": "",
           "baseURI": "https://bafybeidsfpzfdqd2wfoc3t2sa3oqyvbazmv4bmzizcokdbk7zbuce2c4ce.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 500,
@@ -29,19 +29,16 @@ module.exports = {
           "tiers": [
             {
               "name": "5000 Pro Match NFT",
-              "lockAmountUSD": 1000,
               "baseRewardAmount": 0,
               "lockDurationSeconds": 300
             },
             {
               "name": "2000 Pro Match NFT",
-              "lockAmountUSD": 2000,
               "baseRewardAmount": 0,
               "lockDurationSeconds": 3600
             },
             {
               "name": "1000 Pro Match NFT",
-              "lockAmountUSD": 5000,
               "baseRewardAmount": 0,
               "lockDurationSeconds": 86400
             }
