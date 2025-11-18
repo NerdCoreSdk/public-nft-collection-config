@@ -47,9 +47,38 @@ module.exports = {
             }
           ],
           "symbol": "tHODL-UNL",
-          "address": "",
+          "address": "0xd80654413eBF435101C24b6C2Ea6DbEcbBebACcE",
           "baseURI": "https://test-metadata.example.com/hodl1/",
           "maxSupply": 0,
+          "royaltiesPercentage": 500,
+          "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+          "rewardTokenAddress": "0xAAF62976ee828b91f06615f2007f995d2400699c",
+          "rewardTokenDecimals": 18,
+          "initialRewardPoolSize": "0"
+        },
+        {
+          "name": "Test Reward NFT With Base Rewards",
+          "tiers": [
+            {
+              "name": "Bronze",
+              "baseRewardAmount": 1,
+              "lockDurationSeconds": 300
+            },
+            {
+              "name": "Silver",
+              "baseRewardAmount": 2,
+              "lockDurationSeconds": 600
+            },
+            {
+              "name": "Gold",
+              "baseRewardAmount": 5,
+              "lockDurationSeconds": 1800
+            }
+          ],
+          "symbol": "tREWARD",
+          "address": "0x44801715030704baA4E8b6E862Ce1e9F09a21b9a",
+          "baseURI": "https://test-metadata.example.com/reward/",
+          "maxSupply": 1000,
           "royaltiesPercentage": 500,
           "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
           "rewardTokenAddress": "0xAAF62976ee828b91f06615f2007f995d2400699c",
