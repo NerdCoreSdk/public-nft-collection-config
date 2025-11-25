@@ -122,6 +122,20 @@ module.exports = {
           "endTokenId": 500
         }
       ]
+    },
+    {
+      "address": "0xa35f213dE19241a4Eb3eF831801150EB38b51163",
+      "name": "Element Heirloom Voucher NFT",
+      "symbol": "EHV-RT",
+      "contractType": "RewardLockedNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeicycmwrzedun6pvmscxr34i2vzhplfxh7auxcrnfn5lihpjeqzzre/",
+      "maxSupply": 200,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 200
+        }
+      ]
     }
   ],
   "contractTypeRegistry": {
