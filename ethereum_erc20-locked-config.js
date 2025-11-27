@@ -45,10 +45,10 @@ module.exports = {
           ]
         },
         {
-          "name": "$ Elevate Match NFT (WIN)",
-          "symbol": "$EMNWIN",
-          "address": "",
-          "baseURI": "https://{}.ipfs.w3s.link/",
+          "name": "WIN Match NFT",
+          "symbol": "EMNWIN",
+          "address": "0xc1f04F775C16ef224F39A62d4F29cf659f614CC9",
+          "baseURI": "https://bafybeia7ekbkfmoclw7bzowun253zawakqfbd7zj7v5xaubu73bfnczfai.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -59,31 +59,19 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "1000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "2000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "5000MatchNFT",
-              "baseRewardAmount": 0,
+              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -105,10 +93,10 @@ module.exports = {
       "rewardTokenDecimals": 8,
       "collections": [
         {
-          "name": "$ Elevate Match NFT (Element)",
-          "symbol": "$EMNELMT",
-          "address": "",
-          "baseURI": "https://{}.ipfs.w3s.link/",
+          "name": "Element Match NFT",
+          "symbol": "EMNELMT",
+          "address": "0x0915FD5BeabeD35E9A4c9e7D708Ab0aC5769A7ce",
+          "baseURI": "https://bafybeigaatefehoy4ubfcfmwaa3euerobyqmmvj4kf4jc62tbpa4qpj6da.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -119,31 +107,19 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "1000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "2000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "5000MatchNFT",
-              "baseRewardAmount": 0,
+              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -165,10 +141,10 @@ module.exports = {
       "rewardTokenDecimals": 8,
       "collections": [
         {
-          "name": "$ Elevate Match NFT (Elevate)",
-          "symbol": "$EMNELEVATE",
-          "address": "",
-          "baseURI": "https://{}.ipfs.w3s.link/",
+          "name": "Elevate Match NFT",
+          "symbol": "EMNELEVATE",
+          "address": "0x40fbC478F5f816E53a89f848A4fDe2EECf4E4111",
+          "baseURI": "https://bafybeiba5il2k2qdrbwp7mufguak5e4ixrxar55zjj4ikuw5f3cwdwzhmq.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -179,31 +155,19 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "1000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "2000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "5000MatchNFT",
-              "baseRewardAmount": 0,
+              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -225,10 +189,10 @@ module.exports = {
       "rewardTokenDecimals": 8,
       "collections": [
         {
-          "name": "$ Elevate Match NFT (Galvan)",
-          "symbol": "$EMNIZE",
-          "address": "",
-          "baseURI": "https://{}.ipfs.w3s.link/",
+          "name": "Galvan Match NFT",
+          "symbol": "EMNIZE",
+          "address": "0x99e6e47F823a87A63CcDc5Eae57EDab3FAbe7C21",
+          "baseURI": "https://bafybeicexy23hqvehzmzfdl5ssl3l2gavdermgzux6kjzi3xyiea7awxya.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -239,31 +203,19 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "1000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "2000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "5000MatchNFT",
-              "baseRewardAmount": 0,
+              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -285,10 +237,10 @@ module.exports = {
       "rewardTokenDecimals": 18,
       "collections": [
         {
-          "name": "$ Elevate Match NFT (Grow)",
-          "symbol": "$EMNGROW",
-          "address": "",
-          "baseURI": "https://{}.ipfs.w3s.link/",
+          "name": "Grow Match NFT",
+          "symbol": "EMNGROW",
+          "address": "0x6176E4Cdf96a38DD1ada44e1a59138f07a943980",
+          "baseURI": "https://bafybeicm7g5i6g7gfopzqtsnkhgpztsxpuut5glit53xst2clewsayiipu.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -299,31 +251,19 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "1000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "2000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "5000MatchNFT",
-              "baseRewardAmount": 0,
+              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -345,10 +285,10 @@ module.exports = {
       "rewardTokenDecimals": 18,
       "collections": [
         {
-          "name": "$ Elevate Match NFT (Rally)",
-          "symbol": "$EMNRALLY",
-          "address": "",
-          "baseURI": "https://{}.ipfs.w3s.link/",
+          "name": "Rally Match NFT",
+          "symbol": "EMNRALLY",
+          "address": "0x99C8c5E28A27ff17Fa32D3f20e286F8A35DCDC43",
+          "baseURI": "https://bafybeibhabcpbjtocus4y4mhlkdntmyvhsjayhxqj3qbzlda4deobilaqq.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -359,31 +299,19 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "1000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "2000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "5000MatchNFT",
-              "baseRewardAmount": 0,
+              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -405,10 +333,10 @@ module.exports = {
       "rewardTokenDecimals": 8,
       "collections": [
         {
-          "name": "$ Elevate Match NFT (Green)",
-          "symbol": "$EMNGREEN",
-          "address": "",
-          "baseURI": "https://{}.ipfs.w3s.link/",
+          "name": "Green Match NFT",
+          "symbol": "EMNGREEN",
+          "address": "0xB5224619ba34da1121E80aa0e146Eeb267D68Ac7",
+          "baseURI": "https://bafybeifh5k24vocrl2m6yvvxfa7eamog6cv2lhdbafumnz2vx2skmr3iqm.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -419,31 +347,19 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "1000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "2000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "5000MatchNFT",
-              "baseRewardAmount": 0,
+              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -465,10 +381,10 @@ module.exports = {
       "rewardTokenDecimals": 8,
       "collections": [
         {
-          "name": "$ Elevate Match NFT (Switch)",
-          "symbol": "$EMNSWITCH",
-          "address": "",
-          "baseURI": "https://{}.ipfs.w3s.link/",
+          "name": "Switch Match NFT",
+          "symbol": "EMNSWITCH",
+          "address": "0xa03f4ae4F9AA09432D28Ac928482A00e94384063",
+          "baseURI": "https://bafybeih54hdwdndki4fejzsod6sjl4fs4wrprcufirjquti34nukmfx67q.ipfs.w3s.link/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -479,31 +395,19 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
+              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "1000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "2000MatchNFT",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 15724800
-            },
-            {
-              "name": "5000MatchNFT",
-              "baseRewardAmount": 0,
+              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
