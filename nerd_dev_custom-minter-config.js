@@ -333,7 +333,7 @@ module.exports = {
         {
           "startTokenId": 1,
           "endTokenId": 50,
-          "timeLimitDuration": 604800
+          "timeLimitDuration": 604800 
         },
         {
           "startTokenId": 51,
@@ -385,7 +385,7 @@ module.exports = {
         {
           "startTokenId": 81,
           "endTokenId": 100,
-          "timeLimitDuration": 1200
+          "timeLimitDuration": 1200 
         }
       ]
     }
