@@ -2,9 +2,9 @@ module.exports = {
   "network_environment": "NERD_DEV",
   "batchSize": 1000,
   "googleSheetsId": "1UVNRtOHCyeg84XzNgWw90544Hh2CXucg-kAmcG2vijQ",
-  "nftMintControllerAddress": "0x94c0d02816337037cFcD8C3c603E52656A91071d",
-  "nftTokenDiscoveryAddress": "0x6Ddb4336014AE00A21536707fE1ef5Ffae168d0E",
-  "nftMintVoucherAddress": "0x059E770Ae778b3faF530C20eEB45228c604Bb395",
+  "nftMintControllerAddress": "0x940444D0e70Cd8206DFb9CF070042B72Df9a0c37",
+  "nftTokenDiscoveryAddress": "0xD37108d1452aba0dA762A99EF65114FbED7243a8",
+  "nftMintVoucherAddress": "0x49198ce6cEd38CCA518af2B2267286a12F0216CE",
   "coreAPI": "https://api.dev.nerdunited.net/",
   "chainId": 416461,
   "admins": [
@@ -333,7 +333,7 @@ module.exports = {
         {
           "startTokenId": 1,
           "endTokenId": 50,
-          "timeLimitDuration": 604800 
+          "timeLimitDuration": 604800
         },
         {
           "startTokenId": 51,
@@ -385,7 +385,7 @@ module.exports = {
         {
           "startTokenId": 81,
           "endTokenId": 100,
-          "timeLimitDuration": 1200 
+          "timeLimitDuration": 1200
         }
       ]
     }
