@@ -1,5 +1,6 @@
 module.exports = {
   "googleSheetsId": "12lXIHk-rhD5Lo3iEMAsumKDDLG3VTEmgeqilSXVQNPw",
+  "publicMinterAddress": "0x1f76b9ba01b83fBf49F9101289Ce122aE8566427",
   "brands": [
     {
       "brandName": "Test Brand",
@@ -21,6 +22,13 @@ module.exports = {
           "roles": [
             "MINTER_ROLE"
           ]
+        },
+        {
+          "account": "0x1f76b9ba01b83fBf49F9101289Ce122aE8566427",
+          "roles": [
+            "MINTER_ROLE"
+          ],
+          "isPublicMintController": true
         }
       ],
       "rewardTokenAddress": "0xAAF62976ee828b91f06615f2007f995d2400699c",

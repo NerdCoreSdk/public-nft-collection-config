@@ -1,5 +1,6 @@
 module.exports = {
   "googleSheetsId": "1eA4wpaN_ecfGUr51qiZodEwRe8QyZ7E4Vuxuxmj99Gs",
+  "publicMinterAddress": "",
   "brands": [
     {
       "brandName": "Connect",
