@@ -47,7 +47,7 @@ module.exports = {
             }
           ],
           "symbol": "tHODL-UNL",
-          "address": "",
+          "address": "0xB38D7fA76591DfB744f7E07d8eA5114F16b03B04",
           "baseURI": "https://test-metadata.example.com/hodl1/",
           "maxSupply": 0,
           "royaltiesPercentage": 500,
