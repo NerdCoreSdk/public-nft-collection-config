@@ -57,6 +57,63 @@ module.exports = {
           "initialRewardPoolSize": "0"
         }
       ]
+    },
+    {
+      "brandName": "Test Brand 2",
+      "accounts": [
+        {
+          "account": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+          "roles": [
+            "DEFAULT_ADMIN_ROLE"
+          ]
+        },
+        {
+          "account": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+          "roles": [
+            "MINTER_ROLE"
+          ]
+        },
+        {
+          "account": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+          "roles": [
+            "MINTER_ROLE"
+          ]
+        }
+      ],
+      "rewardTokenAddress": "0x9462aA7967b498b2FBb9148d005641f5f2523197",
+      "rewardTokenSymbol": "TEST2",
+      "rewardTokenDecimals": 8,
+      "collections": [
+        {
+          "name": "Test 2 HODL Reward Unlimited",
+          "tiers": [
+            {
+              "name": "Tier 1",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 300
+            },
+            {
+              "name": "Tier 2",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 600
+            },
+            {
+              "name": "Tier 3",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 86400
+            }
+          ],
+          "symbol": "t2HODL-UNL",
+          "address": "0xbdc1255fc082CD7129Cbb81F162fB399adFd9D95",
+          "baseURI": "https://test-metadata.example.com/hodl1/",
+          "maxSupply": 0,
+          "royaltiesPercentage": 500,
+          "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+          "rewardTokenAddress": "0x9462aA7967b498b2FBb9148d005641f5f2523197",
+          "rewardTokenDecimals": 8,
+          "initialRewardPoolSize": "0"
+        }
+      ]
     }
   ]
 };
