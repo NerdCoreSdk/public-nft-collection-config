@@ -1,6 +1,6 @@
 /**
  * Configuration for Hardhat localhost network testing
- * For testing the ConsumptionBasedTokenDiscovery deployment
+ * For testing the MODULE_REGISTRY pattern (ENG-2004)
  */
 
 module.exports = {
@@ -9,14 +9,24 @@ module.exports = {
     googleSheetsId: "1UFTNmh9JDO1FJPij-bYRATtPAJdh4FZI8WYklkgPRng",
 
     // Fresh deployment addresses (empty for initial deployment)
-    nftMintControllerAddress: "0xB0D4afd8879eD9F52b28595d31B441D079B2Ca07",
-    nftTokenDiscoveryAddress: "0x5081a39b8A5f0E35a8D959395a630b68B74Dd30f",
-    // For ConsumptionBasedTokenDiscovery
-    nftMintVoucherAddress: "0x04C89607413713Ec9775E14b954286519d836FEf",
+    nftMintControllerAddress: "",
+    nftTokenDiscoveryAddress: "",
+    nftMintVoucherAddress: "",
+    masterExclusivityAddress: "", // For MODULE_REGISTRY pattern testing
 
     chainId: 31337, // Hardhat localhost default
     admins: [
         { address: "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266" } // Default hardhat account
+    ],
+
+    // Exclusivity scopes - enables IExclusivityModule auto-configuration via MODULE_REGISTRY
+    // Note: collections array will be populated with deployed addresses after deployment
+    exclusivityScopes: [
+        {
+            name: "Test PowerPay Scope",
+            scopeId: "", // Will be populated after scope creation
+            collections: [] // Will be populated after collection deployment
+        }
     ],
 
     // Contract Type Registry - defines mint function signatures for different NFT contract types
@@ -35,7 +45,7 @@ module.exports = {
 
     collections: [
         {
-            address: "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+            address: "",
             name: "Test Basic NFT",
             symbol: "TBNFT",
             contractType: "CouponNFT",
@@ -49,7 +59,7 @@ module.exports = {
             ]
         },
         {
-            address: "0x9A676e781A523b5d0C0e43731313A708CB607508",
+            address: "",
             name: "Test Multi-Tier NFT",
             symbol: "TMTNFT",
             contractType: "CouponNFT",
@@ -67,42 +77,19 @@ module.exports = {
             ]
         },
         {
-            address: "0x3Aa5ebB10DC797CAC828524e59A333d0A371443c",
-            name: "Test Large Collection NFT",
-            symbol: "TLCNFT",
-            contractType: "CouponNFT",
-            baseURI: "https://example.com/metadata/",
-            maxSupply: 2000,
+            // Tests the `contract` field for MODULE_REGISTRY pattern (ENG-2004)
+            // contract = Solidity contract name, contractType = MintController registry lookup
+            address: "",
+            name: "Test PowerPay NFT",
+            symbol: "TPPNFT",
+            contract: "PowerPayNFT",      // Actual Solidity contract to deploy
+            contractType: "CouponNFT",    // For MintController registry (same mint signature)
+            baseURI: "https://example.com/powerpay-metadata/",
+            maxSupply: 50,
             tiers: [
                 {
                     startTokenId: 1,
-                    endTokenId: 1000
-                },
-                {
-                    startTokenId: 1001,
-                    endTokenId: 2000
-                }
-            ]
-        },
-        {
-            address: "0xb7278A61aa25c888815aFC32Ad3cC52fF24fE575",
-            name: "Test Reward NFT",
-            symbol: "TRNFT",
-            contractType: "RewardLockedNFT",
-            baseURI: "https://example.com/reward-metadata/",
-            maxSupply: 100,
-            tiers: [
-                {
-                    startTokenId: 1,
-                    endTokenId: 50,
-                    lockDuration: 300,  // 5 minutes
-                    rewardAmount: "15"  // $15 USD
-                },
-                {
-                    startTokenId: 51,
-                    endTokenId: 100,
-                    lockDuration: 0,    // Instant unlock
-                    rewardAmount: "20"  // $20 USD
+                    endTokenId: 50
                 }
             ]
         }
