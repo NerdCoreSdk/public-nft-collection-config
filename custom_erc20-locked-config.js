@@ -1,5 +1,6 @@
 module.exports = {
   "googleSheetsId": "12lXIHk-rhD5Lo3iEMAsumKDDLG3VTEmgeqilSXVQNPw",
+  "publicMinterAddress": "0x1f76b9ba01b83fBf49F9101289Ce122aE8566427",
   "brands": [
     {
       "brandName": "Test Brand",
@@ -21,6 +22,13 @@ module.exports = {
           "roles": [
             "MINTER_ROLE"
           ]
+        },
+        {
+          "account": "0x1f76b9ba01b83fBf49F9101289Ce122aE8566427",
+          "roles": [
+            "MINTER_ROLE"
+          ],
+          "isPublicMintController": true
         }
       ],
       "rewardTokenAddress": "0xAAF62976ee828b91f06615f2007f995d2400699c",
@@ -47,7 +55,7 @@ module.exports = {
             }
           ],
           "symbol": "tHODL-UNL",
-          "address": "0xB38D7fA76591DfB744f7E07d8eA5114F16b03B04",
+          "address": "0xd80654413eBF435101C24b6C2Ea6DbEcbBebACcE",
           "baseURI": "https://test-metadata.example.com/hodl1/",
           "maxSupply": 0,
           "royaltiesPercentage": 500,
@@ -55,62 +63,34 @@ module.exports = {
           "rewardTokenAddress": "0xAAF62976ee828b91f06615f2007f995d2400699c",
           "rewardTokenDecimals": 18,
           "initialRewardPoolSize": "0"
-        }
-      ]
-    },
-    {
-      "brandName": "Test Brand 2",
-      "accounts": [
-        {
-          "account": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
-          "roles": [
-            "DEFAULT_ADMIN_ROLE"
-          ]
         },
         {
-          "account": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
-          "roles": [
-            "MINTER_ROLE"
-          ]
-        },
-        {
-          "account": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
-          "roles": [
-            "MINTER_ROLE"
-          ]
-        }
-      ],
-      "rewardTokenAddress": "0x9462aA7967b498b2FBb9148d005641f5f2523197",
-      "rewardTokenSymbol": "TEST2",
-      "rewardTokenDecimals": 8,
-      "collections": [
-        {
-          "name": "Test 2 HODL Reward Unlimited",
+          "name": "Test Reward NFT With Base Rewards",
           "tiers": [
             {
-              "name": "Tier 1",
-              "baseRewardAmount": 0,
+              "name": "Bronze",
+              "baseRewardAmount": 1,
               "lockDurationSeconds": 300
             },
             {
-              "name": "Tier 2",
-              "baseRewardAmount": 0,
+              "name": "Silver",
+              "baseRewardAmount": 2,
               "lockDurationSeconds": 600
             },
             {
-              "name": "Tier 3",
-              "baseRewardAmount": 0,
-              "lockDurationSeconds": 86400
+              "name": "Gold",
+              "baseRewardAmount": 5,
+              "lockDurationSeconds": 1800
             }
           ],
-          "symbol": "t2HODL-UNL",
-          "address": "0xbdc1255fc082CD7129Cbb81F162fB399adFd9D95",
-          "baseURI": "https://test-metadata.example.com/hodl1/",
-          "maxSupply": 0,
+          "symbol": "tREWARD",
+          "address": "0x44801715030704baA4E8b6E862Ce1e9F09a21b9a",
+          "baseURI": "https://test-metadata.example.com/reward/",
+          "maxSupply": 1000,
           "royaltiesPercentage": 500,
           "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
-          "rewardTokenAddress": "0x9462aA7967b498b2FBb9148d005641f5f2523197",
-          "rewardTokenDecimals": 8,
+          "rewardTokenAddress": "0xAAF62976ee828b91f06615f2007f995d2400699c",
+          "rewardTokenDecimals": 18,
           "initialRewardPoolSize": "0"
         }
       ]

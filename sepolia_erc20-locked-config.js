@@ -1,5 +1,6 @@
 module.exports = {
   "googleSheetsId": "1fIeGgVbjX0h0EwJsUpMO4iJ4hk0jVeoyf3mI0axWCX0",
+  "publicMinterAddress": "",
   "brands": [
     {
       "brandName": "Nerd Dev",
