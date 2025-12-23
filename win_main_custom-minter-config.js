@@ -5,9 +5,9 @@ module.exports = {
   "coreAPI": "https://api.connectunited.com/",
   "chainID": 946,
   "googleSheetsId": "1ovHMhNhC3zUeN-1vgMLyavQJ-_gHYvtNhI6eLbAHWPU",
-  "nftMintControllerAddress": "0xd53b0f01466B2f9d44521AB18c5dA7B07ce4BaD9",
-  "nftTokenDiscoveryAddress": "0x0e558cE9AAC98B85cb6f528611a9C56855ad6D3C",
-  "nftMintVoucherAddress": "0xF277758fe6116BaeE07d248072AE9396F558b54B",
+  "nftMintControllerAddress": "0x19EcEB06e0bCDbf85Ee70d6af35F64E3891dDaC1",
+  "nftTokenDiscoveryAddress": "0xd91a0F380e760e73c24166361EE4f89395A10Fbd",
+  "nftMintVoucherAddress": "0x396840d6B843F7D617b904C428E3570DbCD85409",
   "admins": [
     {
       "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
@@ -260,6 +260,96 @@ module.exports = {
         {
           "startTokenId": 1,
           "endTokenId": 200
+        }
+      ]
+    },
+    {
+      "address": "0x7E32bE4Ce2215820143580df02dfBDeec9cF16B6",
+      "name": "Impact Summit - Access Pass",
+      "symbol": "ImpactSummit-AccessPass",
+      "contractType": "CouponNFT",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeih6tz46d6xdktnjhsprwjfl4e5vrewwi3w4r4mbpqjrm4y4ubtdae/",
+      "maxSupply": 3000,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 3000
+        }
+      ]
+    },
+    {
+      "address": "0x6303Da944C218e7D21d1225a261a7Bfe4EdD6192",
+      "name": "Impact Summit - Attended LIVE",
+      "symbol": "ImpactSummit-AttendedLIVE",
+      "contractType": "CouponNFT",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeifwhlcuqzqrgbnonunvlgvok64qntph25m4ppqocut76ib2groffy/",
+      "maxSupply": 4000,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 4000
+        }
+      ]
+    },
+    {
+      "address": "0xB9c620cD6f899b3FaDA2B82fF1f5343C1Ed2A809",
+      "name": "Impact Summit - Global Gather Host",
+      "symbol": "ImpactSummit-GlobalGatherHost",
+      "contractType": "CouponNFT",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeiavg3jo62fzst2e54gc2lid745amwq5lwvssneknucofwl6rdrav4/",
+      "maxSupply": 50,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 50
+        }
+      ]
+    },
+    {
+      "address": "0xAC0D2a018049Eb5722CfC4112E6C76459B6BEBD3",
+      "name": "Impact Summit - In-Person VIP",
+      "symbol": "ImpactSummit-In-PersonVIP",
+      "contractType": "CouponNFT",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeidgju7sgsnrlmiiwzkj34gwsiadodswse75ftcoisztdun5rmbzp4/",
+      "maxSupply": 20,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 20
+        }
+      ]
+    },
+    {
+      "address": "0xAd6f5d6Bdd8560F9E39a32B979fFE18e40d711B7",
+      "name": "Impact Summit - Remote VIP",
+      "symbol": "ImpactSummit-RemoteVIP",
+      "contractType": "CouponNFT",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeib3mdhimkcncknbpvt7oeduteimbojltkxbejj3udvuonk3xczsu4/",
+      "maxSupply": 1000,
+      "utilities": {
+        "isActivatable": false,
+        "isExpirable": false
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 1000
         }
       ]
     }
