@@ -1,6 +1,5 @@
 module.exports = {
   "googleSheetsId": "1eA4wpaN_ecfGUr51qiZodEwRe8QyZ7E4Vuxuxmj99Gs",
-  "publicMinterAddress": "",
   "brands": [
     {
       "brandName": "Connect",
@@ -49,7 +48,7 @@ module.exports = {
           "name": "WIN Match NFT",
           "symbol": "EMNWIN",
           "address": "0xc1f04F775C16ef224F39A62d4F29cf659f614CC9",
-          "baseURI": "https://bafybeia7ekbkfmoclw7bzowun253zawakqfbd7zj7v5xaubu73bfnczfai.ipfs.w3s.link/",
+          "baseURI": "https://ipfs.fugate.io/ipfs/bafybeieoq3d3urq2rlsu63ak7aquyzjgykdrcvpzvjnirz2h644pyp5kcm/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -60,19 +59,16 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -97,7 +93,7 @@ module.exports = {
           "name": "Element Match NFT",
           "symbol": "EMNELMT",
           "address": "0x0915FD5BeabeD35E9A4c9e7D708Ab0aC5769A7ce",
-          "baseURI": "https://bafybeigaatefehoy4ubfcfmwaa3euerobyqmmvj4kf4jc62tbpa4qpj6da.ipfs.w3s.link/",
+          "baseURI": "https://ipfs.fugate.io/ipfs/bafybeigptv667nsxgasa34nyyrkavgskfn3a52dreuqpv5jrzpncc75lae/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -108,19 +104,16 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -145,7 +138,7 @@ module.exports = {
           "name": "Elevate Match NFT",
           "symbol": "EMNELEVATE",
           "address": "0x40fbC478F5f816E53a89f848A4fDe2EECf4E4111",
-          "baseURI": "https://bafybeiba5il2k2qdrbwp7mufguak5e4ixrxar55zjj4ikuw5f3cwdwzhmq.ipfs.w3s.link/",
+          "baseURI": "https://ipfs.fugate.io/ipfs/bafybeie3emnbh5pho2p3dbgsr47fmerkvitupekuadptqi3owz264pq43q",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -156,19 +149,16 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -193,7 +183,7 @@ module.exports = {
           "name": "Galvan Match NFT",
           "symbol": "EMNIZE",
           "address": "0x99e6e47F823a87A63CcDc5Eae57EDab3FAbe7C21",
-          "baseURI": "https://bafybeicexy23hqvehzmzfdl5ssl3l2gavdermgzux6kjzi3xyiea7awxya.ipfs.w3s.link/",
+          "baseURI": "https://ipfs.fugate.io/ipfs/bafybeibp3kzm7324wnbc3hdiqacve55b33t3ynoay4u44ys3rhndhynqwi/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -204,19 +194,16 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -241,7 +228,7 @@ module.exports = {
           "name": "Grow Match NFT",
           "symbol": "EMNGROW",
           "address": "0x6176E4Cdf96a38DD1ada44e1a59138f07a943980",
-          "baseURI": "https://bafybeicm7g5i6g7gfopzqtsnkhgpztsxpuut5glit53xst2clewsayiipu.ipfs.w3s.link/",
+          "baseURI": "https://ipfs.fugate.io/ipfs/bafybeiexgy2bwfvkw5fpp6hoagttnnf4wyqddykyezgszymew2bwmo4swq/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -252,19 +239,31 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 100,
+              "lockDurationSeconds": 15724800
+            },
+            {
+              "name": "1000MatchNFT",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 15724800
+            },
+            {
+              "name": "2000MatchNFT",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 15724800
+            },
+            {
+              "name": "5000MatchNFT",
+              "baseRewardAmount": 0,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -289,7 +288,7 @@ module.exports = {
           "name": "Rally Match NFT",
           "symbol": "EMNRALLY",
           "address": "0x99C8c5E28A27ff17Fa32D3f20e286F8A35DCDC43",
-          "baseURI": "https://bafybeibhabcpbjtocus4y4mhlkdntmyvhsjayhxqj3qbzlda4deobilaqq.ipfs.w3s.link/",
+          "baseURI": "https://ipfs.fugate.io/ipfs/bafybeia3loaw7g3fjlmfkafphd5qh7hppcpl57ypi6w5m4ddea42ecxmxa/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -300,19 +299,31 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 100,
+              "lockDurationSeconds": 15724800
+            },
+            {
+              "name": "1000MatchNFT",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 15724800
+            },
+            {
+              "name": "2000MatchNFT",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 15724800
+            },
+            {
+              "name": "5000MatchNFT",
+              "baseRewardAmount": 0,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -337,7 +348,7 @@ module.exports = {
           "name": "Green Match NFT",
           "symbol": "EMNGREEN",
           "address": "0xB5224619ba34da1121E80aa0e146Eeb267D68Ac7",
-          "baseURI": "https://bafybeifh5k24vocrl2m6yvvxfa7eamog6cv2lhdbafumnz2vx2skmr3iqm.ipfs.w3s.link/",
+          "baseURI": "https://ipfs.fugate.io/ipfs/bafybeidysrx5mwptqjg3ctvp7gyznnqyhx2ebri5gehs2jvwmlxv5teqnq/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -348,19 +359,16 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]
@@ -385,7 +393,7 @@ module.exports = {
           "name": "Switch Match NFT",
           "symbol": "EMNSWITCH",
           "address": "0xa03f4ae4F9AA09432D28Ac928482A00e94384063",
-          "baseURI": "https://bafybeih54hdwdndki4fejzsod6sjl4fs4wrprcufirjquti34nukmfx67q.ipfs.w3s.link/",
+          "baseURI": "https://ipfs.fugate.io/ipfs/bafybeidxnatsbhekpoyqgkhyjpq2cxcvfbwv2nsizcs2xpnsx53z56znbu/",
           "maxSupply": 0,
           "royaltiesPercentage": 0,
           "royaltiesReceiver": "0x6383d110aca68357a86fcdc05311d989913621f1",
@@ -396,19 +404,16 @@ module.exports = {
             {
               "name": "25MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 25,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "50MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 50,
               "lockDurationSeconds": 15724800
             },
             {
               "name": "100MatchNFT",
               "baseRewardAmount": 0,
-              "lockAmountUSD": 100,
               "lockDurationSeconds": 15724800
             }
           ]

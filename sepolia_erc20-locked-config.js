@@ -42,6 +42,21 @@ module.exports = {
               "name": "1000 Pro Match NFT",
               "baseRewardAmount": 0,
               "lockDurationSeconds": 86400
+            },
+            {
+              "name": "1000MatchNFT",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 15724800
+            },
+            {
+              "name": "2000MatchNFT",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 15724800
+            },
+            {
+              "name": "5000MatchNFT",
+              "baseRewardAmount": 0,
+              "lockDurationSeconds": 15724800
             }
           ]
         }
