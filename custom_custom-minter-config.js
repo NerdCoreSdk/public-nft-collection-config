@@ -8,12 +8,30 @@ module.exports = {
   "nftMintControllerAddress": "0xD6A410117B9A4844e5f43abb90ECcdc6BfDb51c4",
   "nftTokenDiscoveryAddress": "0x97ffec7E9FCb683941e8d03128d83F609684cE36",
   "nftMintVoucherAddress": "0x82EADA79287fb793e6ac11eCa7E22D8da5ed3a06",
+  "masterExclusivityAddress": "0xB7d7f484C090d27Bbb68471F1C4c3F31f794db21",
   "admins": [
     {
       "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
     },
     {
       "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70"
+    }
+  ],
+  "exclusivityScopes": [
+    {
+      "name": "PowerPayScope",
+      "collections": [
+        "0x3931833ED7188e848592AA63A4995fc0D48a25D1",
+        "0x49e9aB6A29a35440BF17befca9090840FDF3d983"
+      ],
+      "scopeId": "0x985c70e3811f7feffa184cc92f369c4d4fc4ba9fe767a73eb4b4ea4dfde82ef6"
+    },
+    {
+      "name": "PowerPayScope2",
+      "collections": [
+        "0x917eF8b18f26E0DF1e8426fE01A786FaDb424a26"
+      ],
+      "scopeId": "0x264c34603d6d4c65d685af6cef480365b8aba4b49d354e2f62fe1605fc9142cc"
     }
   ],
   "collections": [
@@ -323,6 +341,84 @@ module.exports = {
           "startTokenId": 81,
           "endTokenId": 100,
           "timeLimitDuration": 1200
+        }
+      ]
+    },
+    {
+      "address": "0x3931833ED7188e848592AA63A4995fc0D48a25D1",
+      "name": "PowerPay Test Collection",
+      "symbol": "PPAY-TEST",
+      "contract": "PowerPayNFT",
+      "contractType": "CouponNFT",
+      "exclusivityScope": "PowerPayScope",
+      "baseURI": "https://bafybeia4lrxjshaqu4bv5rrjuans7bfluwn3lsgtdumcvalhgbipmdcuje.ipfs.w3s.link/",
+      "maxSupply": 100,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 33,
+          "timeLimitDuration": 60
+        },
+        {
+          "startTokenId": 34,
+          "endTokenId": 66,
+          "timeLimitDuration": 900
+        },
+        {
+          "startTokenId": 67,
+          "endTokenId": 100,
+          "timeLimitDuration": 86400
+        }
+      ]
+    },
+    {
+      "address": "0x49e9aB6A29a35440BF17befca9090840FDF3d983",
+      "name": "PowerPay Test 2",
+      "symbol": "PPAY-TEST2",
+      "contract": "PowerPayNFT",
+      "contractType": "CouponNFT",
+      "exclusivityScope": "PowerPayScope",
+      "baseURI": "https://bafybeia4lrxjshaqu4bv5rrjuans7bfluwn3lsgtdumcvalhgbipmdcuje.ipfs.w3s.link/",
+      "maxSupply": 50,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 25,
+          "timeLimitDuration": 120
+        },
+        {
+          "startTokenId": 26,
+          "endTokenId": 50,
+          "timeLimitDuration": 300
+        }
+      ]
+    },
+    {
+      "address": "0x917eF8b18f26E0DF1e8426fE01A786FaDb424a26",
+      "name": "PowerPay Test 3",
+      "symbol": "PPAY-TEST3",
+      "contract": "PowerPayNFT",
+      "contractType": "CouponNFT",
+      "exclusivityScope": "PowerPayScope2",
+      "baseURI": "https://bafybeia4lrxjshaqu4bv5rrjuans7bfluwn3lsgtdumcvalhgbipmdcuje.ipfs.w3s.link/",
+      "maxSupply": 50,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 50,
+          "timeLimitDuration": 180
         }
       ]
     }
