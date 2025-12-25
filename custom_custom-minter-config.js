@@ -21,15 +21,15 @@ module.exports = {
     {
       "name": "PowerPayScope",
       "collections": [
-        "0x3931833ED7188e848592AA63A4995fc0D48a25D1",
-        "0x49e9aB6A29a35440BF17befca9090840FDF3d983"
+        "0x3CeC95AB35d3a7C7811509C159611a5456074775",
+        "0x2882EA9d03D6eF95a4Dd3b8B48576E23Ce83AD9C"
       ],
       "scopeId": "0x985c70e3811f7feffa184cc92f369c4d4fc4ba9fe767a73eb4b4ea4dfde82ef6"
     },
     {
       "name": "PowerPayScope2",
       "collections": [
-        "0x917eF8b18f26E0DF1e8426fE01A786FaDb424a26"
+        "0x9d1Ff670EF3D368BAF635121A85E77A5e575C098"
       ],
       "scopeId": "0x264c34603d6d4c65d685af6cef480365b8aba4b49d354e2f62fe1605fc9142cc"
     }
@@ -345,7 +345,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x3931833ED7188e848592AA63A4995fc0D48a25D1",
+      "address": "0x3CeC95AB35d3a7C7811509C159611a5456074775",
       "name": "PowerPay Test Collection",
       "symbol": "PPAY-TEST",
       "contract": "PowerPayNFT",
@@ -376,7 +376,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x49e9aB6A29a35440BF17befca9090840FDF3d983",
+      "address": "0x2882EA9d03D6eF95a4Dd3b8B48576E23Ce83AD9C",
       "name": "PowerPay Test 2",
       "symbol": "PPAY-TEST2",
       "contract": "PowerPayNFT",
@@ -402,7 +402,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x917eF8b18f26E0DF1e8426fE01A786FaDb424a26",
+      "address": "0x9d1Ff670EF3D368BAF635121A85E77A5e575C098",
       "name": "PowerPay Test 3",
       "symbol": "PPAY-TEST3",
       "contract": "PowerPayNFT",
