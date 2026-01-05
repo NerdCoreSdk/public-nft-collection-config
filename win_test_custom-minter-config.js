@@ -1,18 +1,22 @@
 module.exports = {
-    network_environment: "WIN_DEV",
-    batchSize: 1000, // Can be adjusted based on gas limits
-    voucherBatchSize: 50, // Maximum NFTs per voucher
-    
-    nftMintControllerAddress: "0x644102AfC0081c7CeDa01F2d98E671717Aa54b64",
-    nftMintVoucherAddress: "0xF5E0bC0fa749754a22CB2fb7FE01602a561b619B",
-    coreAPI: "https://api.dev.connectunited.com/",
-    chainID: 2666328,
-    "googleSheetsId": "1ge9GoJHmQlHrTvm-6Ay6V7R6Zhh0q8bgTBq9IcxxyLM",
-    admins: [
-        { address: "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F" }, // Manual Deployment Address
-        { address: "0xAdBee901963233232bd6C93d0F6b0C3e9c5B499C" }, // Disbursement Minting Address
-    ],
-    collections: [
+  "network_environment": "WIN_DEV",
+  "batchSize": 1000,
+  "voucherBatchSize": 50,
+  "nftMintControllerAddress": "0xedE77d384d486Ac4637BC9391C255f86BB0544Ee",
+  "nftTokenDiscoveryAddress": "0xB0488b0342768f9512EAf9C6d43a4f0E29C4Ad44",
+  "nftMintVoucherAddress": "0x448178B7b04AACADE173A4587B2E04ff154A1c78",
+  "coreAPI": "https://api.dev.connectunited.com/",
+  "chainID": 2666328,
+  "googleSheetsId": "1ge9GoJHmQlHrTvm-6Ay6V7R6Zhh0q8bgTBq9IcxxyLM",
+  "admins": [
+    {
+      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+    },
+    {
+      "address": "0xAdBee901963233232bd6C93d0F6b0C3e9c5B499C"
+    }
+  ],
+  "collections": [
     {
       "address": "0x4723dA3301d51682bEd89F10CF49a230E14dF5bf",
       "name": "WIN DEV Test NFT Collection",
@@ -68,7 +72,7 @@ module.exports = {
       "contractType": "CouponNFT"
     },
     {
-      "address": "",
+      "address": "0x797BAc4e7dc57eBa9dAB14b6F56db608Be1153B9",
       "name": "Test Reward Token",
       "symbol": "TRT",
       "contractType": "RewardLockedNFT",
@@ -89,6 +93,20 @@ module.exports = {
         }
       ]
     },
+    {
+      "address": "0x56E35EF7096CD41661542358C7B367391FfC28ee",
+      "name": "Win Test Heirloom Voucher NFT",
+      "symbol": "WT-HV-RT",
+      "contractType": "RewardLockedNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeicycmwrzedun6pvmscxr34i2vzhplfxh7auxcrnfn5lihpjeqzzre/",
+      "maxSupply": 200,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 200
+        }
+      ]
+    }
   ],
   "contractTypeRegistry": {
     "CouponNFT": {

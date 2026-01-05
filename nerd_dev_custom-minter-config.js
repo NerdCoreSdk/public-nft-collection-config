@@ -388,6 +388,20 @@ module.exports = {
           "timeLimitDuration": 1200
         }
       ]
+    },
+    {
+      "address": "0x6A7C51249D86D0B0F2155884Cb97f14FAb128dC1",
+      "name": "Nerd Dev Heirloom Voucher NFT",
+      "symbol": "ND-HV-RT",
+      "contractType": "RewardLockedNFT",
+      "baseURI": "https://w3s.link/ipfs/bafybeicycmwrzedun6pvmscxr34i2vzhplfxh7auxcrnfn5lihpjeqzzre/",
+      "maxSupply": 200,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 200
+        }
+      ]
     }
   ],
   "contractTypeRegistry": {
