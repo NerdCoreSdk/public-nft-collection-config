@@ -19,6 +19,8 @@ module.exports = {
   "collections": [
     {
       "address": "0xAA346A5fa0860132625Ed2E6F88D0C9A964ef7Ec",
+      "name": "Switch Legendary Node NFT Boost (Collection 1)",
+      "symbol": "SWTCHNBL1",
       "baseURI": "https://bafybeibbfl23ooec5y7vduwrlayhvyqu6beumxrpjpnfs6cetq7bxe5j4y.ipfs.w3s.link/",
       "maxSupply": "500",
       "contractType": "CouponNFT",
@@ -31,6 +33,8 @@ module.exports = {
     },
     {
       "address": "0xD04278E6eE1B3b5f4508B55261aC4BC3532E958B",
+      "name": "Switch Legendary Node NFT Boost (Collection 2)",
+      "symbol": "SWTCHNBL2",
       "maxSupply": "500",
       "contractType": "CouponNFT",
       "tiers": [
