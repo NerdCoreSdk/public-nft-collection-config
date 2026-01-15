@@ -2,9 +2,10 @@ module.exports = {
   "network_environment": "NERD_DEV",
   "batchSize": 1000,
   "googleSheetsId": "1UVNRtOHCyeg84XzNgWw90544Hh2CXucg-kAmcG2vijQ",
-  "nftMintControllerAddress": "0x940444D0e70Cd8206DFb9CF070042B72Df9a0c37",
-  "nftTokenDiscoveryAddress": "0xD37108d1452aba0dA762A99EF65114FbED7243a8",
-  "nftMintVoucherAddress": "0x49198ce6cEd38CCA518af2B2267286a12F0216CE",
+  "nftMintControllerAddress": "0x54461325270914ff58Fa5B3C9AF10aD35435A37B",
+  "nftTokenDiscoveryAddress": "0x61d2F0841086be157d51c5b699964A0D31090631",
+  "nftMintVoucherAddress": "0xdcdD56bDF2323d118CbD189395F3872F3fd9F8B3",
+  "masterExclusivityAddress": "0x739c3A4eCc2E15995100dCdb4BD4619e246540F7",
   "coreAPI": "https://api.dev.nerdunited.net/",
   "chainId": 416461,
   "admins": [
@@ -19,6 +20,18 @@ module.exports = {
     },
     {
       "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+    }
+  ],
+  "exclusivityScopes": [
+    {
+      "name": "PowerPayScope",
+      "collections": [
+        "0x282cb5EE57916110B7B14D8d88A252C0edd9E8AE",
+        "0x9d6eE1Ee2bE5ea4d64e387F7C0381384539d9866",
+        "0x114A378e5672F8E211C4204529E5d1e025206c32",
+        "0x198558Fd0d907c96De9541f87459B4f72966a052"
+      ],
+      "scopeId": "0x3f5a947525f879747dab9c2b94458e5138c17763ecfa33d54fa7bab85debc75c"
     }
   ],
   "collections": [
@@ -400,6 +413,90 @@ module.exports = {
         {
           "startTokenId": 1,
           "endTokenId": 200
+        }
+      ]
+    },
+    {
+      "address": "0x282cb5EE57916110B7B14D8d88A252C0edd9E8AE",
+      "name": "PowerPay - Full",
+      "symbol": "POWERPAYFULL",
+      "contract": "PowerPayNFT",
+      "contractType": "CouponNFT",
+      "exclusivityScope": "PowerPayScope",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeigjdlla7fe7cgzzmm2ibcnl43cjlukcfgjfppqfc6fuwv55xknsly/",
+      "maxSupply": 1000,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 1000,
+          "timeLimitDuration": 63072000
+        }
+      ]
+    },
+    {
+      "address": "0x9d6eE1Ee2bE5ea4d64e387F7C0381384539d9866",
+      "name": "PowerPay - 50%",
+      "symbol": "POWERPAY50",
+      "contract": "PowerPayNFT",
+      "contractType": "CouponNFT",
+      "exclusivityScope": "PowerPayScope",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeifiyt6tcqwyzs4s3bsjncxr3lzhyuvk7wtbtlrtuswykqymbhl7jy/",
+      "maxSupply": 5000,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 5000,
+          "timeLimitDuration": 63072000
+        }
+      ]
+    },
+    {
+      "address": "0x114A378e5672F8E211C4204529E5d1e025206c32",
+      "name": "PowerPay - 25%",
+      "symbol": "POWERPAY25",
+      "contract": "PowerPayNFT",
+      "contractType": "CouponNFT",
+      "exclusivityScope": "PowerPayScope",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeifiyt6tcqwyzs4s3bsjncxr3lzhyuvk7wtbtlrtuswykqymbhl7jy/",
+      "maxSupply": 5000,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 5000,
+          "timeLimitDuration": 63072000
+        }
+      ]
+    },
+    {
+      "address": "0x198558Fd0d907c96De9541f87459B4f72966a052",
+      "name": "PowerPay - 10%",
+      "symbol": "POWERPAY10",
+      "contract": "PowerPayNFT",
+      "contractType": "CouponNFT",
+      "exclusivityScope": "PowerPayScope",
+      "baseURI": "https://ipfs.fugate.io/ipfs/bafybeihbnmbot3er3wy3nsnjbzk6ev65d36qs4scdzfcfz3hmexudkurly/",
+      "maxSupply": 10000,
+      "utilities": {
+        "isActivatable": true,
+        "isExpirable": true
+      },
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 10000,
+          "timeLimitDuration": 63072000
         }
       ]
     }
