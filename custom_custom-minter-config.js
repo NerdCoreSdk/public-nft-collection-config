@@ -5,38 +5,38 @@ module.exports = {
   "coreAPI": "http://localhost/",
   "chainId": 1337,
   "googleSheetsId": "1vE6MfTB1z4XHR9sGgc2lu3qR7iuE8KkBTwxJD68lb7Q",
-  "nftMintControllerAddress": "0xD6A410117B9A4844e5f43abb90ECcdc6BfDb51c4",
-  "nftTokenDiscoveryAddress": "0x97ffec7E9FCb683941e8d03128d83F609684cE36",
-  "nftMintVoucherAddress": "0x82EADA79287fb793e6ac11eCa7E22D8da5ed3a06",
-  "masterExclusivityAddress": "0xB7d7f484C090d27Bbb68471F1C4c3F31f794db21",
+  "nftMintControllerAddress": "0x501281ac76ED2026A8152a02350872Ab17FFDD93",
+  "nftTokenDiscoveryAddress": "0xEe4210Bb8faBa50aE2150E25Eb0D5C3E72c06519",
+  "nftMintVoucherAddress": "0xAe0296be8b3aF8CB91362a3C632E25840699Dc17",
+  "masterExclusivityAddress": "0x8Eb6Ce3BdBe6EEF818173bD1F82c471AfdD53579",
   "admins": [
     {
-      "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70"
     },
     {
-      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70"
+      "address": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
     }
   ],
   "exclusivityScopes": [
     {
       "name": "PowerPayScope",
       "collections": [
-        "0x3CeC95AB35d3a7C7811509C159611a5456074775",
-        "0x2882EA9d03D6eF95a4Dd3b8B48576E23Ce83AD9C"
+        "0x0416c01000e6d8691A475F58e54d37FA69DCa0c0",
+        "0x49ceC3B1d9a20D9A745ddD132157625031523372"
       ],
-      "scopeId": "0x985c70e3811f7feffa184cc92f369c4d4fc4ba9fe767a73eb4b4ea4dfde82ef6"
+      "scopeId": "0x2ca16578293c3b8571e1c7572f2f7a60a2e6371992872ebd7d55f1260aefe66a"
     },
     {
       "name": "PowerPayScope2",
       "collections": [
-        "0x9d1Ff670EF3D368BAF635121A85E77A5e575C098"
+        "0xe0556AaC76Cacc6801edECEfE3b49FC9A0aF88aD"
       ],
-      "scopeId": "0x264c34603d6d4c65d685af6cef480365b8aba4b49d354e2f62fe1605fc9142cc"
+      "scopeId": "0x6ab307f71cb85e9865b205e71166de87b66b36c883352c8138534f445703121a"
     }
   ],
   "collections": [
     {
-      "address": "0x65745255249de878b0eBe0cDE349F9004C9b1AA1",
+      "address": "0xDD0Bb1683bA987af67d8ff535a55C17BcBd23788",
       "name": "LocalSmallNFT4",
       "symbol": "LSNFT4",
       "contractType": "CouponNFT",
@@ -50,7 +50,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0xa86582Ad5E80abc19F95f8A9Fb3905Cda0dAbd59",
+      "address": "0xeF6E604344B77C4cA754bA2E1eD2349254733FB1",
       "name": "LocalSmallNFT5",
       "symbol": "LSNFT5",
       "contractType": "CouponNFT",
@@ -64,7 +64,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x5EbB64Ae4713bEf67BfA585E56696Bb24a5D5f6a",
+      "address": "0xec60274917282a10F691940bfAD50f473E360F5c",
       "name": "LocalSmallNFT6",
       "symbol": "LSNFT6",
       "contractType": "CouponNFT",
@@ -78,7 +78,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0xb78E3E846FAf57Db15FfF17d8200a7736A7EDfBF",
+      "address": "0x9b1b161EFCAdc6D169e5a042c911F4F9FAA79585",
       "name": "LocalSmallNFT-2024-3-27-1",
       "symbol": "LSNFT-2024-3-27-1",
       "contractType": "CouponNFT",
@@ -92,7 +92,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x4921F2e6EE4d823086B32dFEBEA6C9B6cBD54ed2",
+      "address": "0x2E98D9dc92123a8580D9b1277f0B14fA65928823",
       "name": "LocalSmallNFT-2024-3-27-2",
       "symbol": "LSNFT-2024-3-27-2",
       "contractType": "CouponNFT",
@@ -106,7 +106,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x28C24b94f9C9102358553C774d3a7dCDF73f7339",
+      "address": "0xbb875fe74756D3f487a821AF3EBdd9459C86f262",
       "name": "LocalSmallNFT-2024-3-27-3",
       "symbol": "LSNFT-2024-3-27-3",
       "contractType": "CouponNFT",
@@ -120,7 +120,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0xE594C57812a2f9fF9C2581E0Ca8fcBAEf0451793",
+      "address": "0x9Ba8cdFfd94A18FFa6E7320c8759cEdfEFb1B5C2",
       "name": "LocalSmallNFT-2024-3-27-4",
       "symbol": "LSNFT-2024-3-27-4",
       "contractType": "CouponNFT",
@@ -134,7 +134,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x16F5160f82E3E55ccef997eB23C9d469fE9C70ae",
+      "address": "0x4DC951F20B7aFb0d81bd47F043a1586f3FD98151",
       "name": "LocalSmallNFT5_3Tier",
       "symbol": "LSNFT5_3T",
       "contractType": "CouponNFT",
@@ -156,7 +156,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0xD3735cbb1D8D3c8E67e3d85CF3d5689455176ff3",
+      "address": "0xafA491a6336415DF02faD0b6968a6D9C3e5c4cE3",
       "name": "LocalSmallNFT5_2Tier",
       "symbol": "LSNFT5_2T",
       "contractType": "CouponNFT",
@@ -174,7 +174,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x931Dd5E2f88F37DA1999c70D596677E06287163A",
+      "address": "0x2205cb2AeB0FaFAfa8332587208e3c41B41B0B49",
       "name": "TestCollection",
       "symbol": "TEST",
       "contractType": "CouponNFT",
@@ -188,7 +188,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0xEAf918cc3aba362aDFBf6Ce1D95039bF4EbDB259",
+      "address": "0x4Ae69d0d326b87a5b8F1dbEf9d6211A34700064D",
       "name": "FinalTest",
       "symbol": "FINAL",
       "contractType": "CouponNFT",
@@ -202,7 +202,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x05Fe1CbE849FF3229b9218c2772C6C8ad79e1A07",
+      "address": "0x4EfB24e378893721526f5A8000ebe24fC87465a1",
       "name": "Reward Locked Test 2",
       "symbol": "RLT-2",
       "contractType": "RewardLockedNFT",
@@ -220,7 +220,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0xE7331A53366d5672aa4131e29c4B54C3193dB5f8",
+      "address": "0x35Fe282F0AfC282525AFE246af3F587BcC82B0af",
       "name": "Royal Family Farming Methane Avoidance 2024",
       "symbol": "RFFMA2024",
       "contractType": "CouponNFT",
@@ -234,7 +234,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x818d97D774Dd445e65781a9253b1002820040b6E",
+      "address": "0xe75e950732C76E5330e7D95f4B7b3ec83CF07F28",
       "name": "RTest Reward Token",
       "symbol": "TRT",
       "contractType": "RewardLockedNFT",
@@ -256,7 +256,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x087cE7923808a5A545B845Df3587A76aECc44cf0",
+      "address": "0xE45bb08C895017569139E5Fd55a1A90eeb62829A",
       "name": "Test Activatable Only 2",
       "symbol": "ACTV2",
       "contractType": "CouponNFT",
@@ -274,7 +274,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x44F95Da71C4a33020FDBE062E3b9B1a4C23f99e6",
+      "address": "0xA7da86302Bf9BEeB8a5E405cEc78F24aE14FBE9f",
       "name": "Test Expirable Only 2",
       "symbol": "EXPR2",
       "contractType": "CouponNFT",
@@ -298,7 +298,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0xDF8CdBde2C63f4BB7119295a895cA2F5845F159E",
+      "address": "0x8202DcE5a0c14d7c654F613Ab1664f32f2b532a8",
       "name": "Test Standard NFT 2",
       "symbol": "STND2",
       "contractType": "CouponNFT",
@@ -316,7 +316,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x17B8a67Add1828C31d7BA0E89dd3B72695A31087",
+      "address": "0x03b42b19935625b5A1e7b4018bc44dcEeA2770E9",
       "name": "Test Both Utilities 2",
       "symbol": "BOTH2",
       "contractType": "CouponNFT",
@@ -345,7 +345,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x3CeC95AB35d3a7C7811509C159611a5456074775",
+      "address": "0x0416c01000e6d8691A475F58e54d37FA69DCa0c0",
       "name": "PowerPay Test Collection",
       "symbol": "PPAY-TEST",
       "contract": "PowerPayNFT",
@@ -376,7 +376,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x2882EA9d03D6eF95a4Dd3b8B48576E23Ce83AD9C",
+      "address": "0x49ceC3B1d9a20D9A745ddD132157625031523372",
       "name": "PowerPay Test 2",
       "symbol": "PPAY-TEST2",
       "contract": "PowerPayNFT",
@@ -402,7 +402,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x9d1Ff670EF3D368BAF635121A85E77A5e575C098",
+      "address": "0xe0556AaC76Cacc6801edECEfE3b49FC9A0aF88aD",
       "name": "PowerPay Test 3",
       "symbol": "PPAY-TEST3",
       "contract": "PowerPayNFT",
@@ -457,6 +457,23 @@ module.exports = {
           "lockAmounts",
           "rewardAmounts",
           "unlockTimes"
+        ]
+      }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
         ]
       }
     }

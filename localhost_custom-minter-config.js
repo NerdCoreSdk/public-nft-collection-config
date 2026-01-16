@@ -40,6 +40,11 @@ module.exports = {
             mintSelector: "mintWithLock(address,uint256,uint256,uint256,uint256)",
             batchSelector: "mintMultipleWithLock(address[],uint256[],uint256[],uint256[],uint256[])",
             batchSupported: true
+        },
+        "ExpirableNFT": {
+            mintSelector: "mintWithExpiration(address,uint256,uint256)",
+            batchSelector: "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+            batchSupported: true
         }
     },
 
@@ -79,17 +84,24 @@ module.exports = {
         {
             // Tests the `contract` field for MODULE_REGISTRY pattern (ENG-2004)
             // contract = Solidity contract name, contractType = MintController registry lookup
+            // PowerPayNFT with expirable tokens - uses mintWithExpiration for presale backdating
+            // Note: Controller must register this collection as "ExpirableNFT" type
             address: "",
             name: "Test PowerPay NFT",
             symbol: "TPPNFT",
             contract: "PowerPayNFT",      // Actual Solidity contract to deploy
-            contractType: "CouponNFT",    // For MintController registry (same mint signature)
+            contractType: "CouponNFT",    // Base contract type (backward compatible)
             baseURI: "https://example.com/powerpay-metadata/",
             maxSupply: 50,
+            utilities: {
+                isActivatable: true,
+                isExpirable: true         // Enables ExpirableNFT handler when lockTime provided
+            },
             tiers: [
                 {
                     startTokenId: 1,
-                    endTokenId: 50
+                    endTokenId: 50,
+                    timeLimitDuration: 63072000 // 2 years default expiration
                 }
             ]
         }
