@@ -8,7 +8,7 @@ module.exports = {
   "nftMintControllerAddress": "0x501281ac76ED2026A8152a02350872Ab17FFDD93",
   "nftTokenDiscoveryAddress": "0xEe4210Bb8faBa50aE2150E25Eb0D5C3E72c06519",
   "nftMintVoucherAddress": "0xAe0296be8b3aF8CB91362a3C632E25840699Dc17",
-  "masterExclusivityAddress": "0x8Eb6Ce3BdBe6EEF818173bD1F82c471AfdD53579",
+  "masterExclusivityAddress": "0x98D767bc9dDB4de122985458818A586F2F031756",
   "admins": [
     {
       "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70"
@@ -21,17 +21,17 @@ module.exports = {
     {
       "name": "PowerPayScope",
       "collections": [
-        "0x0416c01000e6d8691A475F58e54d37FA69DCa0c0",
-        "0x49ceC3B1d9a20D9A745ddD132157625031523372"
+        "0x35bfea1E50ea7eAE047485420Ca2bd520b9653C8",
+        "0xa0C7fFB8B75d98da4a031Ac8826ab3eDF2ecb19C"
       ],
-      "scopeId": "0x2ca16578293c3b8571e1c7572f2f7a60a2e6371992872ebd7d55f1260aefe66a"
+      "scopeId": "0x0ae2f0960961c14fa9ecac00e30d78357da5171756ede5329b2e49f5eec69398"
     },
     {
       "name": "PowerPayScope2",
       "collections": [
-        "0xe0556AaC76Cacc6801edECEfE3b49FC9A0aF88aD"
+        "0xFd4E6dA6c7465A9CE701Ba2660FAeDc00F02b995"
       ],
-      "scopeId": "0x6ab307f71cb85e9865b205e71166de87b66b36c883352c8138534f445703121a"
+      "scopeId": "0x2c6e7ce7d781e26e70bc096d718e3d12815524d88b8b22f2fedea01bb8ff29b4"
     }
   ],
   "collections": [
@@ -345,7 +345,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x0416c01000e6d8691A475F58e54d37FA69DCa0c0",
+      "address": "0x35bfea1E50ea7eAE047485420Ca2bd520b9653C8",
       "name": "PowerPay Test Collection",
       "symbol": "PPAY-TEST",
       "contract": "PowerPayNFT",
@@ -376,7 +376,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x49ceC3B1d9a20D9A745ddD132157625031523372",
+      "address": "0xa0C7fFB8B75d98da4a031Ac8826ab3eDF2ecb19C",
       "name": "PowerPay Test 2",
       "symbol": "PPAY-TEST2",
       "contract": "PowerPayNFT",
@@ -402,7 +402,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0xe0556AaC76Cacc6801edECEfE3b49FC9A0aF88aD",
+      "address": "0xFd4E6dA6c7465A9CE701Ba2660FAeDc00F02b995",
       "name": "PowerPay Test 3",
       "symbol": "PPAY-TEST3",
       "contract": "PowerPayNFT",
