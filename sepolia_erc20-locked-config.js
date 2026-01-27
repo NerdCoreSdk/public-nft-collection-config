@@ -6,7 +6,7 @@ module.exports = {
       "brandName": "Nerd Dev",
       "accounts": [
         {
-          "account": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
+          "account": "0x26349a6a26536986E106cB9dd9A4Ef2b8eA58706",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]

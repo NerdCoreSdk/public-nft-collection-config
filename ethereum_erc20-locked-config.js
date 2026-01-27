@@ -5,7 +5,7 @@ module.exports = {
       "brandName": "Connect",
       "accounts": [
         {
-          "account": "0x6383d110aca68357a86fcdc05311d989913621f1",
+          "account": "0xa13057d84a82402eb6F41Ab2c11fC283F9EC0591",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]
@@ -94,7 +94,7 @@ module.exports = {
       "brandName": "Element",
       "accounts": [
         {
-          "account": "0x6383d110aca68357a86fcdc05311d989913621f1",
+          "account": "0xa13057d84a82402eb6F41Ab2c11fC283F9EC0591",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]
@@ -154,7 +154,7 @@ module.exports = {
       "brandName": "Elevate",
       "accounts": [
         {
-          "account": "0x6383d110aca68357a86fcdc05311d989913621f1",
+          "account": "0xa13057d84a82402eb6F41Ab2c11fC283F9EC0591",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]
@@ -214,7 +214,7 @@ module.exports = {
       "brandName": "Galvan",
       "accounts": [
         {
-          "account": "0x6383d110aca68357a86fcdc05311d989913621f1",
+          "account": "0xa13057d84a82402eb6F41Ab2c11fC283F9EC0591",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]
@@ -274,7 +274,7 @@ module.exports = {
       "brandName": "Grow",
       "accounts": [
         {
-          "account": "0x6383d110aca68357a86fcdc05311d989913621f1",
+          "account": "0xa13057d84a82402eb6F41Ab2c11fC283F9EC0591",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]
@@ -334,7 +334,7 @@ module.exports = {
       "brandName": "Rally",
       "accounts": [
         {
-          "account": "0x6383d110aca68357a86fcdc05311d989913621f1",
+          "account": "0xa13057d84a82402eb6F41Ab2c11fC283F9EC0591",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]
@@ -394,7 +394,7 @@ module.exports = {
       "brandName": "Green",
       "accounts": [
         {
-          "account": "0x6383d110aca68357a86fcdc05311d989913621f1",
+          "account": "0xa13057d84a82402eb6F41Ab2c11fC283F9EC0591",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]
@@ -454,7 +454,7 @@ module.exports = {
       "brandName": "Switch",
       "accounts": [
         {
-          "account": "0x6383d110aca68357a86fcdc05311d989913621f1",
+          "account": "0xa13057d84a82402eb6F41Ab2c11fC283F9EC0591",
           "roles": [
             "DEFAULT_ADMIN_ROLE"
           ]
