@@ -2,18 +2,18 @@ module.exports = {
   "network_environment": "WIN_DEV",
   "batchSize": 1000,
   "voucherBatchSize": 50,
-  "nftMintControllerAddress": "0xedE77d384d486Ac4637BC9391C255f86BB0544Ee",
-  "nftTokenDiscoveryAddress": "0xB0488b0342768f9512EAf9C6d43a4f0E29C4Ad44",
-  "nftMintVoucherAddress": "0x448178B7b04AACADE173A4587B2E04ff154A1c78",
+  "nftMintControllerAddress": "0x223C1aF73fe3b0441CB59B3DA935BC684CAeD632",
+  "nftTokenDiscoveryAddress": "0x76f26f1E437F53047f0F163e909eb9C1b74f6209",
+  "nftMintVoucherAddress": "0xE7FA37845B09bF59495877792456313083a5c240",
   "coreAPI": "https://api.dev.connectunited.com/",
   "chainID": 2666328,
   "googleSheetsId": "1ge9GoJHmQlHrTvm-6Ay6V7R6Zhh0q8bgTBq9IcxxyLM",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0xAdBee901963233232bd6C93d0F6b0C3e9c5B499C"
     },
     {
-      "address": "0xAdBee901963233232bd6C93d0F6b0C3e9c5B499C"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -144,6 +144,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

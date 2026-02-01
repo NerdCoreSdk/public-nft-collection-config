@@ -11,6 +11,9 @@ module.exports = {
   "admins": [
     {
       "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+    },
+    {
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [

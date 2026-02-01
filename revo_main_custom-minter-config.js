@@ -2,18 +2,18 @@ module.exports = {
   "network_environment": "REVO",
   "batchSize": 1000,
   "voucherBatchSize": 50,
-  "nftMintControllerAddress": "0x9a2574CFBFfF26Bd02a8aBEeD1e5A39dd94Dc150",
-  "nftTokenDiscoveryAddress": "0x24006ee72A98A5eB3078C81adc60a7D94D0Ce851",
-  "nftMintVoucherAddress": "0x1FC7C94f0D2e09a2c9Cb332E538D998AEC38203b",
+  "nftMintControllerAddress": "0xE11941e14F30DF889F358784cf6986A67FEF2C43",
+  "nftTokenDiscoveryAddress": "0x7fdc81Ba67FFD39dBF1704406C416087C833104b",
+  "nftMintVoucherAddress": "0x76f26f1E437F53047f0F163e909eb9C1b74f6209",
   "coreAPI": "https://api.revoride.com/",
   "chainId": 30130,
   "googleSheetsId": "1jrFyUvu3gJ2FDaUfivLJx9giWtomSYgnU8wh2SpwFgI",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0x64818DCB6Ab7B2a3bf269D95b3f0AAC12B45f7EF"
     },
     {
-      "address": "0x64818DCB6Ab7B2a3bf269D95b3f0AAC12B45f7EF"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -122,6 +122,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

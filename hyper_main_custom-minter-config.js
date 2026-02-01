@@ -2,18 +2,18 @@ module.exports = {
   "network_environment": "HYPER",
   "batchSize": 1000,
   "voucherBatchSize": 50,
-  "nftMintControllerAddress": "0xA692446c467A1a60F4730143c32dF60D174d0f89",
-  "nftMintVoucherAddress": "0xEb78fA4cfa9057be8F715646153afCeDC4746bE4",
-  "nftTokenDiscoveryAddress": "0xe9295AF0f978b7b8b2e0176645138071da37B6e1",
+  "nftMintControllerAddress": "0xE11941e14F30DF889F358784cf6986A67FEF2C43",
+  "nftMintVoucherAddress": "0x76f26f1E437F53047f0F163e909eb9C1b74f6209",
+  "nftTokenDiscoveryAddress": "0x7fdc81Ba67FFD39dBF1704406C416087C833104b",
   "googleSheetsId": "1WCNoOIaqsKrwNjC-3Cgx1HOiYbajxdEkDkL7Egi5538",
   "coreAPI": "https://api.nerdunited.com/",
   "chainID": 3301,
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0x43892B5Cdc5F9d72AC1fb767b30a5876a27A6b1D"
     },
     {
-      "address": "0x43892B5Cdc5F9d72AC1fb767b30a5876a27A6b1D"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -94,6 +94,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

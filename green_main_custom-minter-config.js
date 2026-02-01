@@ -4,16 +4,16 @@ module.exports = {
   "voucherBatchSize": 50,
   "coreAPI": "https://api.setpowerfree.com/",
   "chainId": 6941,
-  "nftMintControllerAddress": "0xc290A86151ac56444fc982501A5312FB785869cc",
-  "nftTokenDiscoveryAddress": "0x1dA18A80Fb935d2b36d8bc2501e616A98ae7b6dA",
-  "nftMintVoucherAddress": "0x4E3c0F9B3C949f6aA9f0Be470627c633a1caaB2b",
+  "nftMintControllerAddress": "0xD9C6948D0B35b25BFd0b035b4fd9D202284b7d97",
+  "nftTokenDiscoveryAddress": "0xE88dC6705751f8745785ad6161415f7240Bf0221",
+  "nftMintVoucherAddress": "0x5a771C494dD592eb5eFA3993beFfD3B87ce05962",
   "googleSheetsId": "1Zw53P-iBzzldRzK9X6zzIqAPt7kCJYkvj-6b27x_IaY",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0xf21b951b565d7f37CFC4aE6Aa4B8aD89F1756696"
     },
     {
-      "address": "0xf21b951b565d7f37CFC4aE6Aa4B8aD89F1756696"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "contractTypeRegistry": {
@@ -26,6 +26,23 @@ module.exports = {
       "mintSelector": "mintWithLock(address,uint256,uint256,uint256,uint256)",
       "batchSelector": "mintMultipleWithLock(address[],uint256[],uint256[],uint256[],uint256[])",
       "batchSupported": true
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
   },
   "collections": [
@@ -93,5 +110,7 @@ module.exports = {
         }
       ]
     }
-  ]
+  ],
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

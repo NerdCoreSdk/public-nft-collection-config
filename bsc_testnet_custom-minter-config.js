@@ -5,12 +5,12 @@ module.exports = {
   "coreAPI": "none",
   "chainId": 97,
   "googleSheetsId": "1B-vXEM20Ba5HXdfE3PfoIGLK4mkopLiBCw2iCRrYikA",
-  "nftMintControllerAddress": "0xAA346A5fa0860132625Ed2E6F88D0C9A964ef7Ec",
-  "nftTokenDiscoveryAddress": "0x23030A74ebdc574A73738E842f2002135Df9D1bE",
-  "nftMintVoucherAddress": "0x0D99C3966384A608D560c017c9D16E74fEeDf248",
+  "nftMintControllerAddress": "0x0884561d17759ddC127D1044aE7A297F5682E32B",
+  "nftTokenDiscoveryAddress": "0x7fdc81Ba67FFD39dBF1704406C416087C833104b",
+  "nftMintVoucherAddress": "0x76f26f1E437F53047f0F163e909eb9C1b74f6209",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -96,6 +96,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

@@ -2,18 +2,18 @@ module.exports = {
   "network_environment": "GROW",
   "batchSize": 1000,
   "voucherBatchSize": 50,
-  "nftMintControllerAddress": "0xbdf0A68C847c90036D4FDa21c9E9A6bE0dc5e532",
-  "nftTokenDiscoveryAddress": "0x6EF56cc72FeEA603cb4C8711B290b1C9eB6791b5",
-  "nftMintVoucherAddress": "0xD1Eb1149e100089BDCe463d038756177f00172bB",
+  "nftMintControllerAddress": "0x90f468A149b11A64aD2126c238C00fc50252676C",
+  "nftTokenDiscoveryAddress": "0x991Eb076e406C7E1D220adCAc5bdDF37f8db6a89",
+  "nftMintVoucherAddress": "0x364c2E28Aa3042dF715d97b40cECD4b302056dE4",
   "coreAPI": "https://api.growblockchain.net/",
   "chainID": 715,
   "googleSheetsId": "1WV2BT6-U9Bgd4ixuXlqvk3btEePJXo6retkKSL090Bk",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0x282955D52143363a401E0CE458c95cF924fD07e8"
     },
     {
-      "address": "0x282955D52143363a401E0CE458c95cF924fD07e8"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -276,6 +276,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

@@ -2,18 +2,18 @@ module.exports = {
   "network_environment": "GALVAN",
   "batchSize": 1000,
   "voucherBatchSize": 50,
-  "nftMintControllerAddress": "0xbF3BC695C4B09f84Fc1a35d1Ae124B328Ec0B1F6",
-  "nftTokenDiscoveryAddress": "0xE7170ef767318b5848138BD1EC526D2bb1C9e2A4",
-  "nftMintVoucherAddress": "0x02dCdf4d1149CA881DF515a039f6aBe7b8B94fB3",
+  "nftMintControllerAddress": "0x991Eb076e406C7E1D220adCAc5bdDF37f8db6a89",
+  "nftTokenDiscoveryAddress": "0x72FA9eA91C3a81543047105057ade252D424f218",
+  "nftMintVoucherAddress": "0x149f4De79c8f6AC3E68b2362F3f60Da4fbC5aEb5",
   "coreAPI": "https://api.galvan.health/",
   "chainId": 120,
   "googleSheetsId": "1wQYAKoMZClE-o2EDTApNrf1qyD9VmoS5y74ya9MdrGw",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0x876D448C00014Ce617De624DeF7A42d188275893"
     },
     {
-      "address": "0x876D448C00014Ce617De624DeF7A42d188275893"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -290,6 +290,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

@@ -2,18 +2,18 @@ module.exports = {
   "network_environment": "LIBERTY",
   "batchSize": 1000,
   "voucherBatchSize": 50,
-  "nftMintControllerAddress": "0x4E3c0F9B3C949f6aA9f0Be470627c633a1caaB2b",
-  "nftTokenDiscoveryAddress": "0x638D398B33223df7f8F6309486a168Ac860e6971",
-  "nftMintVoucherAddress": "0x42D6CDaEA0Af1Dbd4442478DB1b495f7c80b9bBB",
+  "nftMintControllerAddress": "0xE11941e14F30DF889F358784cf6986A67FEF2C43",
+  "nftTokenDiscoveryAddress": "0x7fdc81Ba67FFD39dBF1704406C416087C833104b",
+  "nftMintVoucherAddress": "0x76f26f1E437F53047f0F163e909eb9C1b74f6209",
   "coreAPI": "https://api.libertyblockchain.com/",
   "chainId": 1776,
   "googleSheetsId": "19DnaXHHtH1WKf4eH5cyJeXa6XqwDzrwt89fSjSL_s8M",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0x4515Aa89cf6F3c1f4A137faaa37a09EEb9BD653c"
     },
     {
-      "address": "0x4515Aa89cf6F3c1f4A137faaa37a09EEb9BD653c"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -94,6 +94,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

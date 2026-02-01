@@ -2,18 +2,18 @@ module.exports = {
   "network_environment": "RLINK",
   "batchSize": 1000,
   "voucherBatchSize": 50,
-  "nftMintControllerAddress": "0xC18B53E747B2038A0ab0884Cfb99F6F1cECc2349",
-  "nftTokenDiscoveryAddress": "0x335C4Dd9A027B7C60f634ffa8b0a9b79bD56A76a",
-  "nftMintVoucherAddress": "0x1B899ee45d181670F07cE7c4B4Db0d1F3C60BEdc",
+  "nftMintControllerAddress": "0xD9C6948D0B35b25BFd0b035b4fd9D202284b7d97",
+  "nftTokenDiscoveryAddress": "0xE88dC6705751f8745785ad6161415f7240Bf0221",
+  "nftMintVoucherAddress": "0x5a771C494dD592eb5eFA3993beFfD3B87ce05962",
   "coreAPI": "https://api.r-link.com/",
   "chainId": 1964,
   "googleSheetsId": "18nPhepOogysRbkZAuIvBRYvg5CbdDnj0oDvzDhSgF_g",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0xC476563c074c50f93B20E1d390497C8687e90910"
     },
     {
-      "address": "0xC476563c074c50f93B20E1d390497C8687e90910"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -206,6 +206,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

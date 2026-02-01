@@ -5,15 +5,15 @@ module.exports = {
   "coreAPI": "https://api.connectunited.com/",
   "chainID": 946,
   "googleSheetsId": "1ovHMhNhC3zUeN-1vgMLyavQJ-_gHYvtNhI6eLbAHWPU",
-  "nftMintControllerAddress": "0x19EcEB06e0bCDbf85Ee70d6af35F64E3891dDaC1",
-  "nftTokenDiscoveryAddress": "0xd91a0F380e760e73c24166361EE4f89395A10Fbd",
-  "nftMintVoucherAddress": "0x396840d6B843F7D617b904C428E3570DbCD85409",
+  "nftMintControllerAddress": "0x2d8AcDde3B2aE31B88b8Cc0F654FF59F78dD6182",
+  "nftTokenDiscoveryAddress": "0x364c2E28Aa3042dF715d97b40cECD4b302056dE4",
+  "nftMintVoucherAddress": "0xdedfA8E3181225A063a4A5060501f6A8b6E84cfF",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0xcfCcbaE2e37E3187987053a46aD88a3f8dFC005A"
     },
     {
-      "address": "0xcfCcbaE2e37E3187987053a46aD88a3f8dFC005A"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -390,6 +390,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };

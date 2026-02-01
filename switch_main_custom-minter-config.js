@@ -2,18 +2,18 @@ module.exports = {
   "network_environment": "SWITCH",
   "batchSize": 1000,
   "voucherBatchSize": 50,
-  "nftMintControllerAddress": "0x4A91c8e963eEF82a625eB5C1e6B48811adABAF7f",
-  "nftTokenDiscoveryAddress": "0xF726c96DA40964a175fD98bd97D7e0c0A6847F06",
-  "nftMintVoucherAddress": "0xbEcc755DC93B73B59eF483518188B7aBC675Cd28",
+  "nftMintControllerAddress": "0xE11941e14F30DF889F358784cf6986A67FEF2C43",
+  "nftTokenDiscoveryAddress": "0x7fdc81Ba67FFD39dBF1704406C416087C833104b",
+  "nftMintVoucherAddress": "0x76f26f1E437F53047f0F163e909eb9C1b74f6209",
   "coreAPI": "https://api.switchrewardcard.com/",
   "chainId": 22522,
   "googleSheetsId": "1iPLsbq9Ma5yhjkRzTMO-Z4tRwz7HJv4IbQJNb2JP19w",
   "admins": [
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0x7c7e1f77A65C88CD24ca51d49630040dB7A06CDa"
     },
     {
-      "address": "0x7c7e1f77A65C88CD24ca51d49630040dB7A06CDa"
+      "address": "0xdddB626f8E7f2BB01c5729aFB7A71869c4E6e0Cd"
     }
   ],
   "collections": [
@@ -107,6 +107,25 @@ module.exports = {
           "unlockTimes"
         ]
       }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
+        ]
+      }
     }
-  }
+  },
+  "masterExclusivityAddress": "",
+  "exclusivityScopes": []
 };
