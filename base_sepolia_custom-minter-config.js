@@ -5,15 +5,16 @@ module.exports = {
   "coreAPI": "none",
   "chainId": 84532,
   "googleSheetsId": "1pQR5ngZJv3cmSWp6CAm2WWiYuSmJ-luUgUhQh9o8NMk",
-  "nftMintControllerAddress": "0x02e00F4804B3c7866d30bAf89b4E712a5D3eAee1",
-  "nftTokenDiscoveryAddress": "0xC349Af9C981Bf36eCba52775A18C650bf04B8AF0",
-  "nftMintVoucherAddress": "0xE68F673Ec96EE387400d0bF26391099Cbd59BF5E",
+  "nftMintControllerAddress": "0x34De670893cd7dC905D4b93166641D768076b7CE",
+  "nftTokenDiscoveryAddress": "0x6Bd8382deb25cfFd191880D8Cb28447d113D79bD",
+  "nftMintVoucherAddress": "0x4fcc981E5Ea2094CE6F494F092e1Bc8f36FA156A",
+  "masterExclusivityAddress": "",
   "admins": [
     {
-      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0x9B9ffCa5d91FaBcA2De5E8e5499E29035C8664d8"
     }
   ],
+  "exclusivityScopes": [],
   "collections": [
     {
       "address": "0x7c722e02c31aCe8E93A43Ad0142B85daAF4a94D9",
@@ -28,40 +29,9 @@ module.exports = {
           "endTokenId": 50
         }
       ]
-    },
-    {
-      "address": "",
-      "name": "NerdyMarketplaceNFT",
-      "symbol": "NMNFT",
-      "contractType": "MarketplaceNFT",
-      "baseURI": "https://bafybeicbulimsmxxvjac3hcujpjytlqrfsebtm5ui5jo3kduqdhikqxa7a.ipfs.w3s.link/",
-      "maxSupply": 50,
-      "royaltiesPercentage": 500,
-      "royaltiesReceiver": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70",
-      "tiers": [
-        {
-          "startTokenId": 1,
-          "endTokenId": 50
-        }
-      ]
     }
   ],
   "contractTypeRegistry": {
-    "MarketplaceNFT": {
-      "mintSelector": "mint(address,uint256)",
-      "batchSelector": "mintMultiple(address[],uint256[])",
-      "batchSupported": true,
-      "parameters": {
-        "mint": [
-          "toAddress",
-          "tokenId"
-        ],
-        "mintMultiple": [
-          "toAddresses",
-          "tokenIds"
-        ]
-      }
-    },
     "CouponNFT": {
       "mintSelector": "mint(address,uint256)",
       "batchSelector": "mintMultiple(address[],uint256[])",
@@ -95,6 +65,23 @@ module.exports = {
           "lockAmounts",
           "rewardAmounts",
           "unlockTimes"
+        ]
+      }
+    },
+    "ExpirableNFT": {
+      "mintSelector": "mintWithExpiration(address,uint256,uint256)",
+      "batchSelector": "mintMultipleWithExpiration(address[],uint256[],uint256[])",
+      "batchSupported": true,
+      "parameters": {
+        "mintWithExpiration": [
+          "toAddress",
+          "tokenId",
+          "expirationTime"
+        ],
+        "mintMultipleWithExpiration": [
+          "toAddresses",
+          "tokenIds",
+          "expirationTimes"
         ]
       }
     }

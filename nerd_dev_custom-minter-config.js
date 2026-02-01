@@ -5,13 +5,10 @@ module.exports = {
   "nftMintControllerAddress": "0x54461325270914ff58Fa5B3C9AF10aD35435A37B",
   "nftTokenDiscoveryAddress": "0x61d2F0841086be157d51c5b699964A0D31090631",
   "nftMintVoucherAddress": "0xdcdD56bDF2323d118CbD189395F3872F3fd9F8B3",
-  "masterExclusivityAddress": "0x739c3A4eCc2E15995100dCdb4BD4619e246540F7",
+  "masterExclusivityAddress": "0x513722d0F9F5c9a36aa27FBe5840d7Fc844b79A3",
   "coreAPI": "https://api.dev.nerdunited.net/",
   "chainId": 416461,
   "admins": [
-    {
-      "address": "0x2201374e803Ec5Ca1dCB6550673669b42D9A5B70"
-    },
     {
       "address": "0xEFa29a6f4f9b2637699725Fc85eB0bbd81D34706"
     },
@@ -19,19 +16,26 @@ module.exports = {
       "address": "0x99c9f9419d96910959A673D88652bD82F22260E3"
     },
     {
-      "address": "0x58f1a71C79FB6685a75Ada2Cd5717Bb2Fb70515F"
+      "address": "0x9B9ffCa5d91FaBcA2De5E8e5499E29035C8664d8"
     }
   ],
   "exclusivityScopes": [
     {
       "name": "PowerPayScope",
       "collections": [
-        "0x13210D82043509B65d21c3523d8f41E23F4F1f21",
-        "0x4D2538cD6263588A7ea056BE28c9b5f11A2E866b",
-        "0x9dc155901b627EFB4260a5f87F8BE5a836C9Eb2E",
-        "0x388f68E29b5f1DD29BE534cd03e568534D547eB2"
+        "0x8Ad5cB03Ca86d8f9b5992c96AD75d99c51095669",
+        "0x06B8C225d37c95D14cCaf4c034F240b00c43F436",
+        "0xf824F1ce6642D4971358C471dCc4F192096b8e4f",
+        "0x2396e486Aa7D4AE59531ef96911670Ec0b03dCE6"
       ],
-      "scopeId": "0x3f5a947525f879747dab9c2b94458e5138c17763ecfa33d54fa7bab85debc75c"
+      "scopeId": "0xf0a47a388cbae2f7055b162ac5ed4ab18176734f8fdc4610c8062374bfb2ad76"
+    },
+    {
+      "name": "NonPowerPayScope",
+      "collections": [
+        "0x0f2cE1A02bA1DC4844bBeeBe986748De2C1eAcD9"
+      ],
+      "scopeId": "0x9e3b5ece10ffde3423440e5290877e0682e3eb3d3ab5af5900cd36a64b65f14e"
     }
   ],
   "collections": [
@@ -417,7 +421,23 @@ module.exports = {
       ]
     },
     {
-      "address": "0x13210D82043509B65d21c3523d8f41E23F4F1f21",
+      "address": "0x0f2cE1A02bA1DC4844bBeeBe986748De2C1eAcD9",
+      "name": "Non-PowerPay - Full",
+      "symbol": "NonPOWERPAYFULL",
+      "contract": "PowerPayNFT",
+      "contractType": "CouponNFT",
+      "exclusivityScope": "NonPowerPayScope",
+      "baseURI": "https://bafybeiebaa7owtj5uirti3rlikh3vpga723z5n43tmuoo7bycerl3mhkja.ipfs.w3s.link/",
+      "maxSupply": 100,
+      "tiers": [
+        {
+          "startTokenId": 1,
+          "endTokenId": 100
+        }
+      ]
+    },
+    {
+      "address": "0x8Ad5cB03Ca86d8f9b5992c96AD75d99c51095669",
       "name": "PowerPay - Full",
       "symbol": "POWERPAYFULL",
       "contract": "PowerPayNFT",
@@ -438,7 +458,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x4D2538cD6263588A7ea056BE28c9b5f11A2E866b",
+      "address": "0x06B8C225d37c95D14cCaf4c034F240b00c43F436",
       "name": "PowerPay - 50%",
       "symbol": "POWERPAY50",
       "contract": "PowerPayNFT",
@@ -459,7 +479,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x9dc155901b627EFB4260a5f87F8BE5a836C9Eb2E",
+      "address": "0xf824F1ce6642D4971358C471dCc4F192096b8e4f",
       "name": "PowerPay - 25%",
       "symbol": "POWERPAY25",
       "contract": "PowerPayNFT",
@@ -480,7 +500,7 @@ module.exports = {
       ]
     },
     {
-      "address": "0x388f68E29b5f1DD29BE534cd03e568534D547eB2",
+      "address": "0x2396e486Aa7D4AE59531ef96911670Ec0b03dCE6",
       "name": "PowerPay - 10%",
       "symbol": "POWERPAY10",
       "contract": "PowerPayNFT",
